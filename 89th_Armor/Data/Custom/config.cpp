@@ -2126,7 +2126,7 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Grim\89th_marine_Grim_WDL_co.paa",
+			"89th_Armor\Data\Custom\Grim\89th_marine_Grim_WDL.paa",
 		};
 		class ItemInfo: ItemInfo
 		{
