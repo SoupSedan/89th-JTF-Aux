@@ -65,22 +65,54 @@ class cfgWeapons
 		};
 	};
 		//Patrol Cap
-	class Placeholder_89th: OPTRE_UNSC_PatrolCap_Marines
+	class 89th_PatrolCap_ARD: OPTRE_UNSC_PatrolCap_Marines
 	{
 		dlc="89thJTF";
 		author="Soup";
-		displayName="[89th] Patrol Cap";
+		displayName="[89th] Patrol Cap (ARD)";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Non-Combat\placeholder"
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelectionsTextures[]=
-			{
-				"89th_Armor\Data\Non-Combat\placeholder"
-			};
+			"89th_Armor\Data\Non-Combat\89th_PatrolCap_ARD.paa"
 		};
 	};
-};
+	class 89th_PatrolCap_DES: OPTRE_UNSC_PatrolCap_Marines
+	{
+		dlc="89thJTF";
+		author="Soup";
+		displayName="[89th] Patrol Cap (DES)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Non-Combat\89th_PatrolCap_DES.paa"
+		};
+	};
+	class 89th_PatrolCap_SNW: OPTRE_UNSC_PatrolCap_Marines
+	{
+		dlc="89thJTF";
+		author="Soup";
+		displayName="[89th] Patrol Cap (SNW)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Non-Combat\89th_PatrolCap_SNW.paa"
+		};
+	};
+	class 89th_PatrolCap_URB: OPTRE_UNSC_PatrolCap_Marines
+	{
+		dlc="89thJTF";
+		author="Soup";
+		displayName="[89th] Patrol Cap (URB)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Non-Combat\89th_PatrolCap_URB.paa"
+			};
+	};
+	class 89th_PatrolCap_WDL: OPTRE_UNSC_PatrolCap_Marines
+	{
+		dlc="89thJTF";
+		author="Soup";
+		displayName="[89th] Patrol Cap (WDL)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Non-Combat\89th_PatrolCap_WDL.paa"
+		};
+	};
 };
