@@ -3787,14 +3787,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
 			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
 				""
 			};
 		};
@@ -3815,7 +3815,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
@@ -3829,14 +3829,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
 			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
 				""
 			};
 		};
@@ -3857,7 +3857,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
@@ -3871,14 +3871,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
 			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
 				""
 			};
 		};
@@ -3892,14 +3892,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
@@ -3913,14 +3913,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
 			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
 				""
 			};
 		};
@@ -3934,14 +3934,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 
 			};
@@ -3956,14 +3956,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
 			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
 				""
 			};
 		};
@@ -3977,14 +3977,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
