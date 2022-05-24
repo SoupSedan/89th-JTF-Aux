@@ -3777,6 +3777,218 @@ class cfgWeapons
 			};
 		};
 	};
+		//Clark Helmet
+	 class 89th_Marine_Clark_WDL_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="[89th] CH252 (Clark)(WDL)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Clark_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="CH252 (Clark)(WDL)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Clark_URB_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="[89th] CH252 (Clark)(URB)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Clark_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="CH252 (Clark)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Clark_DES_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="[89th] CH252 (Clark)(DES)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Clark_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Soup";
+		displayName="CH252 (Clark)(DES)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Clark_ARD_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Christmas, Soup";
+		displayName="[89th] CH252 (Clark)(ARD)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Clark_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Christmas, Soup";
+		displayName="CH252 (Clark)(ARD)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+
+			};
+		};
+	};
+	class 89th_Marine_Clark_SNW_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Christmas, Soup";
+		displayName="[89th] CH252 (Clark)(SNW)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Clark_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thCUArmor";
+		scope=2;
+		author="Christmas, Soup";
+		displayName="CH252 (Clark)(SNW)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
 		//Dragon Helmet
     class 89th_Marine_Dragon_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
