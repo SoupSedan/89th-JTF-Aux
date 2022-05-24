@@ -1906,6 +1906,217 @@ class cfgWeapons
 			};
 		};
 	};
+		//Flips Helmet
+	class 89th_Marine_Flips_ARD: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252 (Flips)(ARD)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Flips_ARD_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="CH252 (Flips)(ARD)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Flips_DES: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252 (Flips)(DES)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Flips_DES_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="CH252 (Flips)(DES)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Flips_SNW: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252 (Flips)(SNW)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Flips_SNW_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="CH252 (Flips)(SNW)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Flips_WDL: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252 (Flips)(WDL)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Flips_WDL_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="CH252 (Flips)(WDL)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_Marine_Flips_URB: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252 (Flips)(URB)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_Flips_URB_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="CH252 (Flips)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
 		//Mark Helmet
 	class 89th_Marine_Mark_SNW_CH252: VES_CH252_MAR_Vacuum
 	{
