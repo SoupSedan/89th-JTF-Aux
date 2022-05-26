@@ -517,7 +517,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
-			"89th_Armor\Data\Basic\URB\89th_M52_BLANK_URB_co.paa",
+			"89th_Armor\Data\Vests\89th_M52_BLANK_URB_co.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Armor\Data\Custom\Jarvis\89th_M52D_Jarvis_URB_CO.paa"
@@ -1759,7 +1759,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_ICE_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_ICE_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -1801,7 +1801,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_ICE_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_ICE_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -1843,7 +1843,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_ICE_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_ICE_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -1885,7 +1885,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_ICE_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_ICE_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -1938,7 +1938,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1980,7 +1980,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -2022,7 +2022,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -2064,7 +2064,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -2106,7 +2106,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -2139,7 +2139,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Mark_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Mark_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -2181,7 +2181,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Mark_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Mark_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -2223,7 +2223,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Mark_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Mark_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -2265,7 +2265,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Mark_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Mark_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -2307,7 +2307,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Mark_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Mark_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3168,7 +3168,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Soup_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Soup_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3210,7 +3210,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Soup_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Soup_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3252,7 +3252,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Soup_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Soup_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3294,7 +3294,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Soup_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Soup_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3337,7 +3337,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Soup_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Soup_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3380,7 +3380,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Syndicate_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Syndicate_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3422,7 +3422,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Syndicate_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Syndicate_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3463,7 +3463,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Syndicate_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Syndicate_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3504,7 +3504,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Syndicate_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Syndicate_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3545,7 +3545,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Syndicate_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Syndicate_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3588,7 +3588,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Christmas_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Christmas_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3630,7 +3630,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Christmas_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Christmas_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3672,7 +3672,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Christmas_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Christmas_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3714,7 +3714,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Christmas_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Christmas_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3756,7 +3756,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Christmas_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Christmas_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -3799,7 +3799,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Clark_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Clark_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thCUArmor";
 		scope=2;
@@ -3841,7 +3841,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Clark_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Clark_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thCUArmor";
 		scope=2;
@@ -3883,7 +3883,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Clark_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Clark_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thCUArmor";
 		scope=2;
@@ -3925,7 +3925,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Clark_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Clark_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thCUArmor";
 		scope=2;
@@ -3968,7 +3968,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Clark_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Clark_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thCUArmor";
 		scope=2;
@@ -4011,7 +4011,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Dragon_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Dragon_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4053,7 +4053,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Dragon_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Dragon_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4095,7 +4095,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Dragon_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Dragon_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4137,7 +4137,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Dragon_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Dragon_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4180,7 +4180,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Dragon_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Dragon_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4223,7 +4223,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Battle_BLK_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Battle_BLK_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4267,7 +4267,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_Buck_BLK_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Buck_BLK_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4310,7 +4310,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Legion_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Legion_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4459,7 +4459,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_MadMike_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_MadMike_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4501,7 +4501,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_MadMike_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_MadMike_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4543,7 +4543,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_MadMike_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_MadMike_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4585,7 +4585,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_MadMike_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_MadMike_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -4627,7 +4627,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_MadMike_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_MadMike_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5312,19 +5312,19 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 	{
 		dlc="89thJTF";
 		author="Flips";
-		displayName="[89th] Joker S1/ONI/R [OFF}";
+		displayName="[89th] Joker S1/ONI/R [OFF]";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Joker\V_S1ONIR_JOKER_CO",
-			"V_FZ_Armor\Data\Helmets\V_S1ONIR_GLD_V_CO"
+			"V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Armor\Data\Custom\Joker\V_S1ONIR_JOKER_CO",
-				"V_FZ_Armor\Data\Helmets\V_S1ONIR_GLD_V_CO"
+				"V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"
 			};
 		};
 	};
@@ -5350,7 +5350,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Ziggy_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Ziggy_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5392,7 +5392,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Ziggy_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Ziggy_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5434,7 +5434,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Ziggy_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Ziggy_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5476,7 +5476,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Ziggy_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Ziggy_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5518,7 +5518,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Ziggy_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Ziggy_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5561,7 +5561,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Bread_WDL_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Bread_WDL_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5603,7 +5603,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Bread_URB_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Bread_URB_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5645,7 +5645,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Bread_DES_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Bread_DES_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5687,7 +5687,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Bread_ARD_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Bread_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
@@ -5729,7 +5729,7 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			};
 		};
 	};
-	class 89th_Marine_Bread_SNW_CH252_dp: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Bread_SNW_CH252_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		dlc="89thJTF";
 		scope=2;
