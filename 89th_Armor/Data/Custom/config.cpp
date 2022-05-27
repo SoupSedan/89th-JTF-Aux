@@ -35,7 +35,7 @@ class cfgWeapons
 		//Buck Vest
 	class 89th_M52_Buck_Vest: VES_M52D_Demolitions
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Soup";
 		displayName="[89th] M52A (Buck)";
 		hiddenSelectionsTextures[]=
@@ -123,7 +123,7 @@ class cfgWeapons
 		//Bler Vest
 	class 89th_M52D_Bler: VES_M52D_Rifleman
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Bler) (WDL)";
 		hiddenSelectionsTextures[]=
@@ -209,7 +209,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bler_DES: 89th_M52D_Bler
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Bler) (DES)";
 		hiddenSelectionsTextures[]=
@@ -223,7 +223,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bler_SNW: 89th_M52D_Bler
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Bler) (SNW)";
 		hiddenSelectionsTextures[]=
@@ -237,7 +237,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bler_ARD: 89th_M52D_Bler
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Bler) (ARD)";
 		hiddenSelectionsTextures[]=
@@ -252,7 +252,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bler_URB: 89th_M52D_Bler
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Bler) (URB)";
 		hiddenSelectionsTextures[]=
@@ -267,7 +267,7 @@ class cfgWeapons
 		//Bread Vest
 	class 89th_M52D_Bread: VES_M52D_Demolitions
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52 (Bread) (WDL)";
 		hiddenSelectionsTextures[]=
@@ -353,7 +353,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bread_DES: 89th_M52D_Bread
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52 (Bread) (DES)";
 		hiddenSelectionsTextures[]=
@@ -367,7 +367,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bread_URB: 89th_M52D_Bread
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52 (Bread) (URB)";
 		hiddenSelectionsTextures[]=
@@ -381,7 +381,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bread_SNW: 89th_M52D_Bread
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52 (Bread) (SNW)";
 		hiddenSelectionsTextures[]=
@@ -395,7 +395,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Bread_ARD: 89th_M52D_Bread
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52 (Bread) (ARD)";
 		hiddenSelectionsTextures[]=
@@ -411,7 +411,7 @@ class cfgWeapons
 		//Jarvis Vest
 	class 89th_M52D_Jarvis: VES_M52D_Demolitions
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Jarvis) (WDL)";
 		hiddenSelectionsTextures[]=
@@ -497,7 +497,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Jarvis_DES: 89th_M52D_Jarvis
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Jarvis) (DES)";
 		hiddenSelectionsTextures[]=
@@ -511,7 +511,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Jarvis_URB: 89th_M52D_Jarvis
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Jarvis) (URB)";
 		hiddenSelectionsTextures[]=
@@ -525,7 +525,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Jarvis_ARD: 89th_M52D_Jarvis
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Jarvis) (ARD)";
 		hiddenSelectionsTextures[]=
@@ -539,7 +539,7 @@ class cfgWeapons
 	};
 	class 89th_M52D_Jarvis_SNW: 89th_M52D_Jarvis
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="[89th] M52D (Jarvis) (SNW)";
 		hiddenSelectionsTextures[]=
@@ -554,7 +554,7 @@ class cfgWeapons
 		//Firefly Vest
 	class 89th_M52D_Firefly: VES_M52D_Demolitions
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="M52D Firefly Basic";
 		hiddenSelectionsTextures[]=
@@ -719,7 +719,7 @@ class cfgWeapons
 		//Legate Vest
 	class 89th_Marine_Legate: 89th_M52A_TeamLeader
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Vespade";
 		displayName="89th Marine Legate M52A";
 		hiddenSelectionsTextures[]=
@@ -911,8 +911,8 @@ class cfgWeapons
 		//Mark Vest
 	class 89th_M52A_Mark_ARD: VES_M52A_MAR_Rifleman_C
 	{
-		dlc="FZ";
-		author="Flips";
+		dlc="89thJTF";
+		author="Soup";
 		displayName="[89th] M52A (Mark) (ARD)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -998,8 +998,8 @@ class cfgWeapons
 	};	
 	class 89th_M52A_Mark_DES: 89th_M52A_Mark_ARD
 	{
-		dlc="FZ";
-		author="Flips";
+		dlc="89thJTF";
+		author="Soup";
 		displayName="[89th] M52A (Mark) (DES)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -1007,13 +1007,13 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Mark\89th_M52_MARK_DES_CO.paa",
 			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Mark\89th_M52A_MARK_DES.paa"
+			"89th_Armor\Data\Basic\ARD\889th_M52A_MARK_ARD.paa"
 		};
 	};
 	class 89th_M52A_Mark_SNW: 89th_M52A_Mark_ARD
 	{
-		dlc="FZ";
-		author="Flips";
+		dlc="89thJTF";
+		author="Soup";
 		displayName="[89th] M52A (Mark) (SNW)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -1026,8 +1026,8 @@ class cfgWeapons
 	};
 	class 89th_M52A_Mark_URB: 89th_M52A_Mark_ARD
 	{
-		dlc="FZ";
-		author="Flips";
+		dlc="89thJTF";
+		author="Soup";
 		displayName="[89th] M52A (Mark) (URB)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -1040,8 +1040,8 @@ class cfgWeapons
 	};
 	class 89th_M52A_Mark_WDL: 89th_M52A_Mark_ARD
 	{
-		dlc="FZ";
-		author="Flips";
+		dlc="89thJTF";
+		author="Soup";
 		displayName="[89th] M52A (Mark) (WDL)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -1052,10 +1052,154 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Mark\89th_M52A_MARK_WDL.paa"
 		};
 	};
+	//Grim Vest
+	class 89th_M52A_Grim_ARD: VES_M52A_MAR_Rifleman_C
+	{
+		dlc="89thJTF";
+		author="Flips";
+		displayName="[89th] M52A (Grim) (ARD)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\ARD\89th_Soft_Vest_ARD.paa",
+			"89th_Armor\Data\Custom\Grim\89th_M52_Grim_ARD.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52_ARD_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_Ghillie",
+			\\	"A_ChestArmor",
+				"A_KneesLeft",
+				"A_KneesRight",
+			\\	"A_KneesMarLeft",
+			\\	"A_KneesMarRight",
+				"A_ODST",
+			\\	"A_ShinArmorLeft",
+			\\	"A_ShinArmorRight",
+				"A_TacPad",
+			\\	"A_ThighArmorLeft",
+			\\	"A_ThighArmorRight",
+			\\	"AS_BaseLeft",
+			\\	"AS_BaseRight",
+			\\	"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+			\\	"AS_MediumRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTLeft",
+				"AS_ODSTRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_Canteen",
+				"AP_GL",
+			\\	"AP_Knife",
+			\\	"AP_MGThigh",
+			\\	"AP_AR",
+			\\	"AP_BR",
+				"AP_Pack",
+			\\	"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+			\\	"AP_Thigh",
+			\\	"AP_Frag",
+				"AP_Smoke",
+			\\	"APO_AR",
+			\\	"APO_BR",
+				"APO_Knife",
+				"APO_SMG",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+	};	
+	class 89th_M52A_Grim_DES: 89th_M52A_Grim_ARD
+	{
+		dlc="89thJTF";
+		author="Flips";
+		displayName="[89th] M52A (Grim) (DES)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Armor\Data\Custom\Grim\89th_M52_Grim_DES_CO.paa",
+			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52D_DES_CO.paa"
+		};
+	};
+	class 89th_M52A_Grim_SNW: 89th_M52A_Grim_ARD
+	{
+		dlc="89thJTF";
+		author="Flips";
+		displayName="[89th] M52A (Grim) (SNW)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\SNW\89th_Soft_Vest_SNW.paa",
+			"89th_Armor\Data\Custom\Grim\89th_M52_Grim_SNW_CO.paa",
+			"89th_Armor\Data\Basic\SNW\89th_M52_SNW_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Custom\Mark\89th_M52D_SNW_CO.paa"
+		};
+	};
+	class 89th_M52A_Grim_URB: 89th_M52A_Grim_ARD
+	{
+		dlc="89thJTF";
+		author="Flips";
+		displayName="[89th] M52A (Grim) (URB)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
+			"89th_Armor\Data\Custom\Grim\89th_M52_Grim_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Custom\Mark\89th_M52A_URB_CO.paa"
+		};
+	};
+	class 89th_M52A_Grim_WDL: 89th_M52A_Grim_ARD
+	{
+		dlc="89thJTF";
+		author="Flips";
+		displayName="[89th] M52A (Grim) (WDL)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\WDL\89th_Soft_Vest_WDL.paa",
+			"89th_Armor\Data\Custom\Grim\89th_M52_Grim_WDL_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_M52_WDL_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Custom\Mark\89th_M52A_WDL_CO.paa"
+		};
+	};
 		//Dragon Vest
 	class 89th_Marine_Dragon: 89th_M52A_TeamLeader
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Christmas";
 		displayName="89th Marine Dragon M52A";
 		hiddenSelectionsTextures[]=
@@ -1247,7 +1391,7 @@ class cfgWeapons
 	//Syndicate Vest
 	class 89th_M52A_Syndicate_ARD: VES_M52A_MAR_Rifleman_C
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Flips";
 		displayName="[89th] M52A (Syndicate) (ARD)";
 		hiddenSelectionsTextures[]=
@@ -1334,7 +1478,7 @@ class cfgWeapons
 	};	
 	class 89th_M52A_Syndicate_DES: 89th_M52A_Syndicate_ARD
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Flips";
 		displayName="[89th] M52A (Syndicate) (DES)";
 		hiddenSelectionsTextures[]=
@@ -1348,7 +1492,7 @@ class cfgWeapons
 	};
 	class 89th_M52A_Syndicate_SNW: 89th_M52A_Syndicate_ARD
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Flips";
 		displayName="[89th] M52A (Syndicate) (SNW)";
 		hiddenSelectionsTextures[]=
@@ -1362,7 +1506,7 @@ class cfgWeapons
 	};
 	class 89th_M52A_Syndicate_URB: 89th_M52A_Syndicate_ARD
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Flips";
 		displayName="[89th] M52A (Syndicate) (URB)";
 		hiddenSelectionsTextures[]=
@@ -1376,7 +1520,7 @@ class cfgWeapons
 	};
 	class 89th_M52A_Syndicate_WDL: 89th_M52A_Syndicate_ARD
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="Flips";
 		displayName="[89th] M52A (Syndicate) (WDL)";
 		hiddenSelectionsTextures[]=
@@ -1391,7 +1535,7 @@ class cfgWeapons
 		//Christmas Vest
 	class 89th_Marine_Christmas: 89th_M52A_TeamLeader
 	{
-		dlc="FZ";
+		dlc="89thJTF";
 		author="";
 		displayName="89th Marine Christmas M52A";
 		hiddenSelectionsTextures[]=
