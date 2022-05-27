@@ -8,7 +8,10 @@ class CfgPatches
 			"89th_Flag_89thJTF",
 			"89th_Flag_Goliath",
 			"89th_Flag_Legion",
+			"89th_Flag_Thor",
+			"89th_Flag_Knight",
 			"89th_Flag_Platoon1",
+			"89th_Flag_Platoon2",
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -78,6 +81,39 @@ class CfgVehicles
 		editorCategory="89th_EdCat_Objects";
 		editorSubcategory="89th_EdSubCat_Objects_Flags";
 	};
+	class 89th_Flag_Thor: OPTRE_CTF_Flag_Base
+	{
+		author="Flips";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] Thor Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\89th_flag_Thor.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};class 89th_Flag_Knight: OPTRE_CTF_Flag_Base
+	{
+		author="Flips";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] Knight Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\89th_flag_Knight.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};
 	class 89th_Flag_Platoon1: OPTRE_CTF_Flag_Base
 	{
 		author="Flips";
@@ -90,7 +126,24 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Objects\data\flags\Anvil\89th_flag_Platoon1.paa"
+			"89th_Objects\data\flags\89th_flag_Platoon1.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};
+	class 89th_Flag_Platoon2: OPTRE_CTF_Flag_Base
+	{
+		author="Flips";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 2nd Platoon Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\89th_flag_Platoon2.paa"
 		};
 		editorCategory="89th_EdCat_Objects";
 		editorSubcategory="89th_EdSubCat_Objects_Flags";
