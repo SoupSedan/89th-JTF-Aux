@@ -1294,7 +1294,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_DES.paa",
 			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_ARD.paa"
+			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_DES.paa"
 		};
 	};
 	class 89th_M52A_Flips_SNW: 89th_M52A_Flips_ARD
@@ -1406,7 +1406,7 @@ class cfgWeapons
 			\\	"AP_Canteen",
 				"AP_GL",
 			\\	"AP_Knife",
-				"AP_MGThigh",
+			\\	"AP_MGThigh",
 			\\	"AP_AR",
 				"AP_BR",
 			\\	"AP_Pack",
@@ -1415,7 +1415,7 @@ class cfgWeapons
 				"AP_SG",
 				"AP_SMG",
 			\\	"AP_Sniper",
-				"AP_Thigh",
+			\\	"AP_Thigh",
 				"AP_Frag",
 			\\	"AP_Smoke",
 				"APO_AR",
