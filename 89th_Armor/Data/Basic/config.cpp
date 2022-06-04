@@ -2282,7 +2282,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Basic\WDL\89th_Soft_Vest_WDL.paa",
-			"89th_Armor\Data\Vests\89th_M52_M_WDL_co.paa",
+			"89th_Armor\Data\Basic\WDL\89th_M52_M_WDL_co.paa",
 			"89th_Armor\Data\Basic\WDL\89th_M52_WDL_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"optre_unsc_units\army\data\odst_armor_co.paa"
