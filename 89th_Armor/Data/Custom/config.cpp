@@ -5660,7 +5660,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 	{
 		dlc="89thJTF";
 		author="Ice";
-		displayName="[89th] CH252D (Bler)(DES)";
+		displayName="[89th] CH252D (Bler)(URB)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -5680,7 +5680,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 	{
 		dlc="89thJTF";
 		author="Ice";
-		displayName="[89th] CH252D (Bler)(DES)[OFF]";
+		displayName="[89th] CH252D (Bler)(URB)[OFF]";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
