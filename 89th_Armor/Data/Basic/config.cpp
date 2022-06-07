@@ -893,7 +893,7 @@ class cfgWeapons
 			"89th_Armor\Data\Basic\URB\89th_M52_BLANK_URB_co.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa""
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
