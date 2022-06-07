@@ -2681,14 +2681,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
 			};
 		};
@@ -3181,14 +3181,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3201,14 +3201,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_SLV_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_SLV_V_CO"
 			};
 		};
@@ -3221,14 +3221,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3241,14 +3241,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 			};
 		};
@@ -3261,14 +3261,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3441,14 +3441,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"89th_Armor\Data\Visors\89th_Goliath_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"89th_Armor\Data\Visors\89th_Goliath_V_CO.paa"
 			};
 		};
@@ -3461,14 +3461,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Basic\WDL\89th_ODST_Woodland_CO.paa",
+				"89th_Armor\Data\Basic\WDL\89th_ODST_WDL_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
