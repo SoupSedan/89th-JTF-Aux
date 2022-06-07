@@ -248,11 +248,11 @@ class cfgWeapons
 		displayName="[89th] M52A (Rifleman)(URB)";
 		hiddenSelectionsTextures[]=
 		{
-			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_BLANK_URB_co.paa",
-			"V_FZ_Armor\Data\Vests\V_M52_L_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"optre_unsc_units\army\data\odst_armor_co.paa"
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -893,7 +893,7 @@ class cfgWeapons
 			"89th_Armor\Data\Basic\URB\89th_M52_BLANK_URB_co.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\URB\"
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa""
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -962,11 +962,11 @@ class cfgWeapons
 		displayName="[89th] M52A (Medic)(URB)";
 		hiddenSelectionsTextures[]=
 		{
-			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_M_URB_co.paa",
-			"V_FZ_Armor\Data\Vests\V_M52_L_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"optre_unsc_units\army\data\odst_armor_co.paa"
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -3281,14 +3281,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"89th_Armor\Data\Visors\89th_Goliath_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"89th_Armor\Data\Visors\89th_Goliath_V_CO.paa"
 			};
 		};
@@ -3301,14 +3301,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3321,14 +3321,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
 			};
 		};
@@ -3341,14 +3341,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3361,14 +3361,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_SLV_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_SLV_V_CO"
 			};
 		};
@@ -3381,14 +3381,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
@@ -3401,14 +3401,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 			};
 		};
@@ -3421,14 +3421,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Helmets\89th_ODST_URB_CO.paa",
+				"89th_Armor\Data\Basic\URB\89th_ODST_URB_CO.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
