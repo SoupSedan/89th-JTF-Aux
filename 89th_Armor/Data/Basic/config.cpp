@@ -799,7 +799,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Vespade";
-		displayName="[89th]M52A (Security)(ARD)";
+		displayName="[89th] M52A (Security)(ARD)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\ARD\89th_Soft_Vest_ARD.paa",
