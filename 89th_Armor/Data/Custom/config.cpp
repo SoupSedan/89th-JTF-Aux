@@ -2624,6 +2624,27 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 			vestType="Rebreather";
 		};
 	};
+		class 89th_M52A_MAR_Ice_ARD: 89th_M52A_MAR_Ice_WDL
+	{
+		dlc="89thJTF";
+		author="Ice and Spartanjackwar";
+		displayName="[89th] M52A (Ice)(ARD)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Basic\ARD\89th_Soft_Vest_ARD.paa",
+			"89th_Armor\Data\Custom\Ice\89th_M52_BLANK_ICE_ARD_co.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52_ARD_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+		};
+	};
 			//Ice Helmet
 	class 89th_Marine_ICE_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
@@ -2789,6 +2810,48 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Armor\Data\Custom\Ice\89th_marine_Ice_helmet_SNW_CO.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+		class 89th_Marine_ICE_ARD_CH252: VES_CH252_MAR_Vacuum
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Ice";
+		displayName="[89th] CH252 (Ice)(ARD)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Ice\89th_Marine_Ice_Helmet_ARD_CO.paa",
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Ice\89th_marine_Ice_helmet_ARD_CO.paa",
+				""
+			};
+		};
+	};
+	class 89th_Marine_ICE_ARD_CH252_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Ice";
+		displayName="CH252 (Ice)(ARD)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Ice\89th_Marine_Ice_Helmet_ARD_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Ice\89th_marine_Ice_helmet_ARD_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
