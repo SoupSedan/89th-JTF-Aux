@@ -148,6 +148,74 @@ class CfgVehicles
 		editorCategory="89th_EdCat_Objects";
 		editorSubcategory="89th_EdSubCat_Objects_Flags";
 	};
+		class 89th_Flag_1_1Flag: OPTRE_CTF_Flag_Base
+	{
+		author="Soup";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 1-1 Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\squadflags\1stplatoon1stsquad.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};
+			class 89th_Flag_1_2Flag: OPTRE_CTF_Flag_Base
+	{
+		author="Soup";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 1-2 Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\squadflags\1stplatoon2ndsquad.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};
+			class 89th_Flag_1_3Flag: OPTRE_CTF_Flag_Base
+	{
+		author="Soup";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 1-3 Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\squadflags\1stplatoon3rdsquad.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};
+			class 89th_Flag_2_1Flag: OPTRE_CTF_Flag_Base
+	{
+		author="Flips";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 2-1 Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Objects\data\flags\squadflags\2ndplatoon1stsquad.paa"
+		};
+		editorCategory="89th_EdCat_Objects";
+		editorSubcategory="89th_EdSubCat_Objects_Flags";
+	};	
 	//Flagpole Flags
 	class 89th_Flagpole_JTF: Flag_White_F
 	{
