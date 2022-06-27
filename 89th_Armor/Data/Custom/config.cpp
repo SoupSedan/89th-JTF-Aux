@@ -1465,7 +1465,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_ARD.paa",
 			"89th_Armor\Data\Basic\ARD\89th_M52_ARD_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_ARD.paa"
+			"\89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1508,13 +1508,13 @@ class cfgWeapons
 			\\	"AS_LargeLeft",
 				"AS_LargeRight",
 				"AS_MediumLeft",
-				"AS_MediumRight",
+			\\	"AS_MediumRight",
 				"AS_ODSTCQBLeft",
 				"AS_ODSTCQBRight",
 				"AS_ODSTLeft",
 				"AS_ODSTRight",
 				"AS_ODSTSniperLeft",
-			\\	"AS_ODSTSniperRight",
+				"AS_ODSTSniperRight",
 				"AS_SmallLeft",
 				"AS_SmallRight",
 			\\	"AP_Canteen",
@@ -1552,7 +1552,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_DES.paa",
 			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_DES.paa"
+			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
 		};
 	};
 	class 89th_M52A_Flips_SNW: 89th_M52A_Flips_ARD
@@ -1566,7 +1566,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_SNW.paa",
 			"89th_Armor\Data\Basic\SNW\89th_M52_SNW_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_SNW.paa"
+			"89th_Armor\Data\Basic\SNW\89th_M52D_SNW_CO.paa"
 		};
 	};
 	class 89th_M52A_Flips_URB: 89th_M52A_Flips_ARD
@@ -1580,7 +1580,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_URB.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_URB.paa"
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
 		};
 	};
 	class 89th_M52A_Flips_WDL: 89th_M52A_Flips_ARD
@@ -1594,7 +1594,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_WDL.paa",
 			"89th_Armor\Data\Basic\WDL\89th_M52_WDL_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52D_Flips_WDL.paa"
+			"89th_Armor\Data\Basic\WDL\89th_M52D_WDL_CO.paa"
 		};
 	};
 	//Grim Vest
