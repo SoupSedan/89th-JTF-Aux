@@ -30,6 +30,7 @@ class cfgWeapons
 	class OPTRE_UNSC_M52A_Armor_Rifleman_MAR;
 	class 89th_M52A_TeamLeader;
 	class 89th_M52A_MAR_Sniper;
+	class Ves_CH252_MAR_Crew;
 	class ItemInfo;
 	class VestItem;
 		//Buck Vest
@@ -6787,6 +6788,27 @@ class 89th_CH252D_Epsilon_URB: VES_CH252D
 			{
 				"89th_Armor\Data\Custom\Joker\V_S1ONIR_JOKER_CO",
 				"V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"
+			};
+		};
+	};
+		//Winter Helmet
+		class 89th_Crewman_Winter: Ves_CH252_MAR_Crew
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips";
+		displayName="[89th] CH252C (Winter)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Winter\89th_Crewman_Winter_CO.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Winter\89th_Crewman_Winter_CO.paa",
+				""
 			};
 		};
 	};
