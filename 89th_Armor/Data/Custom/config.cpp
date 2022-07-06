@@ -1662,7 +1662,7 @@ class cfgWeapons
 				"AS_SmallRight",
 				"AP_Canteen",
 				"AP_GL",
-				"AP_Knife",
+			\\	"AP_Knife",
 				"AP_MGThigh",
 				"AP_AR",
 				"AP_BR",
@@ -1677,7 +1677,7 @@ class cfgWeapons
 			\\	"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
-				"APO_Knife",
+			\\	"APO_Knife",
 				"APO_SMG",
 				"APO_Sniper",
 				"CustomKit_Scorch"
