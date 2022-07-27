@@ -4583,7 +4583,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Tas, Geek, Smackles, Flips, Vespade"";
+		author="Tas, Geek, Smackles, Flips, Vespade";
 		displayName="[89th] CH252 (Epsi)(DES)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -4604,7 +4604,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Tas, Geek, Smackles, Flips, Vespade"";
+		author="Tas, Geek, Smackles, Flips, Vespade";
 		displayName="[89th] CH252 (Epsi)(URB)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -4646,7 +4646,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Tas, Geek, Smackles, Flips, Vespade" ";
+		author="Tas, Geek, Smackles, Flips, Vespade";
 		displayName="[89th] CH252 (Epsi)(SNW)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
