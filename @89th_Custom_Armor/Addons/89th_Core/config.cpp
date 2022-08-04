@@ -17,7 +17,7 @@ class CfgEditorCategories
 {
 	class 89th_EdCat_Objects
 	{
-		displayName="[89th JTF] Objects";
+		displayName="[89th] Display";
 	};
 };
 class CfgEditorSubcategories
