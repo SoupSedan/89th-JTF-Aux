@@ -5766,7 +5766,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Chrysler\89th_marine_helmet_SChrysler_WDL_CO.paa",
+			"89th_Armor\Data\Custom\Chrysler\89th_marine_helmet_Chrysler_WDL_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
