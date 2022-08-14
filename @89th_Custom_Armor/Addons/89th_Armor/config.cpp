@@ -29,7 +29,7 @@ class cfgVehicles
 		displayName="[89th] Invisible Rucksack LR";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
 		model="\89th_Redx_Files\backpacks\89_Invis_pack.p3d";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
@@ -109,7 +109,7 @@ class cfgVehicles
 		author="89th JTF Mod Team";
 		displayName="[89th] Rucksack LR WDL";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
@@ -137,7 +137,7 @@ class cfgVehicles
 		author="89th JTF Mod Team";
 		displayName="[89th] Rucksack LR URB";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
@@ -165,7 +165,7 @@ class cfgVehicles
 		author="Flips";
 		displayName="[89th] Rucksack LR ARD";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
@@ -193,7 +193,7 @@ class cfgVehicles
 		author="89th JTF Mod Team";
 		displayName="[89th] Rucksack LR DES";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
@@ -221,7 +221,7 @@ class cfgVehicles
 		author="89th JTF Mod Team";
 		displayName="[89th] Rucksack LR SNW";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-		maximumLoad=400;
+		maximumLoad=520;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
