@@ -5833,7 +5833,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
+				"89th_Armor\Data\Custom\Fenn\89th_marine_helmet_Fenn_DES_CO.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
