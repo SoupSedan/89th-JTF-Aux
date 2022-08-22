@@ -5298,7 +5298,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_wdl_CO.paa",
-			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -5340,7 +5340,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_urb_CO.paa",
-			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -5382,7 +5382,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_des_CO.paa",
-			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -5424,7 +5424,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_ard_CO.paa",
-			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -5467,7 +5467,7 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Clark\89th_clark_helmet_snw_CO.paa",
-			"V_FZ_Armor\Data\Helmets\89th_Marine_V_CO.paa"
+			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
