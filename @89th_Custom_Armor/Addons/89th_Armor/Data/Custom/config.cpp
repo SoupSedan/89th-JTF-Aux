@@ -1800,7 +1800,7 @@ class cfgWeapons
 			"89th_Armor\Data\Custom\Mark\89th_M52_MARK_DES_CO.paa",
 			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\ARD\89th_M52A_MARK_ARD.paa"
+			"89th_Armor\Data\Custom\DES\89th_M52A_MARK_DES.paa"
 		};
 	};
 	class 89th_M52A_Mark_SNW: 89th_M52A_Mark_ARD
