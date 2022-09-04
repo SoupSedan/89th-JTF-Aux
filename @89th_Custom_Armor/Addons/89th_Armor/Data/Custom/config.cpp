@@ -3234,7 +3234,177 @@ class 89th_M52_Tas: VES_M52D_Demolitions
 			vestType="Rebreather";
 		};
 	};	
-
+	//Clark Vest
+        class 89th_M52A_Clark: 89th_M52A_TeamLeader	
+	{	dlc="89thJTF";
+		author="Vespade, Clark, Soup";
+		displayName="[89th] M52A (Clark)(ARD)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\ARD\89th_Soft_Vest_ARD.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_ARD_co.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_ARD_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_Ghillie",
+			\\	"A_ChestArmor",
+			\\	"A_KneesLeft",
+				"A_KneesRight",
+			\\	"A_KneesMarLeft",
+			\\	"A_KneesMarRight",
+				"A_ODST",
+			\\	"A_ShinArmorLeft",
+			\\	"A_ShinArmorRight",
+				"A_TacPad",
+			\\	"A_ThighArmorLeft",
+			\\	"A_ThighArmorRight",
+			\\	"AS_BaseLeft",
+			\\	"AS_BaseRight",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+			\\	"AS_MediumLeft",
+				"AS_MediumRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTLeft",
+			\\	"AS_ODSTRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+			\\	"AP_Canteen",
+			\\	"AP_GL",
+			\\	"AP_Knife",
+				"AP_MGThigh",
+				"AP_AR",
+				"AP_BR",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Thigh",
+				"AP_Frag",
+			\\	"AP_Smoke",
+				"APO_AR",
+				"APO_BR",
+				"APO_Knife",
+				"APO_SMG",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+	};
+	class 89th_M52A_Clark_WDL: 89th_M52A_TeamLeader	
+	{
+		dlc="89thJTF";
+		author="Soup, Clark";
+		displayName="[89th] M52A (Clark)(WDL)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Basic\WDL\89th_Soft_Vest_WDL.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_WDL_co.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_WDL_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\WDL\89th_M52A_ODST_WDL.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+		};
+	};
+	class 89th_M52A_Clark_URB: 89th_M52A_TeamLeader	
+	{
+		dlc="89thJTF";
+		author="Soup, Clark";
+		displayName="[89th] M52A (Clark)(URB)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_URB_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_URB_Underlay_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+		};
+	};
+	class 89th_M52A_Clark_DES: 89th_M52A_Teamleader
+	{
+		dlc="89thJTF";
+		author="Soup, Clark";
+		displayName="[89th] M52A (Clark)(DES)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_DES_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_DES_Underlay_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+		};
+	};	
+	class 89th_M52A_Clark_SNW: 89th_M52A_TeamLeader	
+	{
+		dlc="89thJTF";
+		author="Soup, Clark";
+		displayName="[89th] M52A (Clark)(SNW)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Basic\SNW\89th_Soft_Vest_SNW.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_SNW_CO.paa",
+			"89th_Armor\Data\Custom\Clark\89th_M52_Clark_SNW_Underlay_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\SNW\89th_M52D_SNW_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+		};
+	};	
 	//Ice Vest
 	class 89th_M52A_MAR_Ice_WDL: OPTRE_UNSC_M52A_Armor_Rifleman_MAR
 	{
