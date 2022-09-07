@@ -17,7 +17,7 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_CH252_MAR_Light
+	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
 	//Helmet
 	class 89th_Marine_ARD_Apa_CH252: VES_CH252_MAR_Light

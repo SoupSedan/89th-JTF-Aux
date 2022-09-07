@@ -17,8 +17,8 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_CH252D
-	class VES_CH252D_dp
+	class VES_CH252D;
+	class VES_CH252D_dp;
 	//Helmet
 	class 89th_CH252D_Epsilon_ARD: VES_CH252D
 	{

@@ -17,7 +17,7 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_M52D_Rifleman
+	class VES_M52D_Rifleman;
 	//Helmet
 	//Vest
 	class 89th_M52D_Firefly: VES_M52D_Rifleman

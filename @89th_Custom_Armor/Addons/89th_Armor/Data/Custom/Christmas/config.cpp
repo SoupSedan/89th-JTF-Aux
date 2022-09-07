@@ -17,9 +17,9 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_CH252_MAR_Vacuum
-	class VES_CH252_MAR_Vacuum_dp
-	class VES_M52D_Rifleman
+	class VES_CH252_MAR_Vacuum;
+	class VES_CH252_MAR_Vacuum_dp;
+	class VES_M52D_Rifleman;
 	//Helmet
 	class 89th_Marine_Christmas_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
