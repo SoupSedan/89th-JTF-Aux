@@ -18,6 +18,7 @@ class cfgPatches
 class cfgWeapons
 {
 	class VES_CH252_MAR_Light;
+	class ItemInfo;
 	//Helmet 
 	class 89th_Marine_URB_Meszaros_CH252: VES_CH252_MAR_Light
 	{

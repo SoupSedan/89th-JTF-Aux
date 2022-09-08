@@ -19,6 +19,8 @@ class cfgWeapons
 {
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class 89th_CH252_Grim_WDL: VES_CH252_MAR_Light
 	{
@@ -254,3 +256,4 @@ class cfgWeapons
 			"89th_Armor\Data\Basic\WDL\89th_M52D_WDL_CO.paa"
 		};
 	};
+};

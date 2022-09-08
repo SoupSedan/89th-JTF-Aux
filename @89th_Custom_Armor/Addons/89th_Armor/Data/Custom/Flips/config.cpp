@@ -23,6 +23,8 @@ class CfgWeapons
 	};
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet
 	class 89th_Marine_Flips_ARD: VES_CH252_MAR_Light
 	{

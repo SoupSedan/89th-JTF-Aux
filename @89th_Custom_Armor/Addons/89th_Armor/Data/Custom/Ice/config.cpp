@@ -20,6 +20,8 @@ class cfgWeapons
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class 89th_Marine_ICE_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
@@ -408,3 +410,4 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	};
+};

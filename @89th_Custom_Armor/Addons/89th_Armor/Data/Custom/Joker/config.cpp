@@ -18,7 +18,10 @@ class cfgPatches
 class cfgWeapons
 {
 	class VES_S1ONIR;
+	class VES_S1ONIR_dp;
 	class OPTRE_UNSC_M52D_Armor_Light;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class Joker_S1ONIR:	VES_S1ONIR
 	{

@@ -18,6 +18,8 @@ class cfgPatches
 class cfgWeapons
 {
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet
 	//Vest
 	class 89th_M52_Tas: VES_M52D_Rifleman

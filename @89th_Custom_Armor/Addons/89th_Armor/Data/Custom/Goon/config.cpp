@@ -19,6 +19,8 @@ class cfgWeapons
 {
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class 89th_Marine_WDL_Goon_CH252: VES_CH252_MAR_Light
 	{
@@ -126,7 +128,7 @@ class cfgWeapons
 		};
 	};
 	//Vest
-	class 89th_Marine_Goon: 89th_M52D_Rifleman
+	class 89th_Marine_Goon: VES_M52D_Rifleman
 	{
 		dlc="89thJTF";
 		author="Soup, Vespade";

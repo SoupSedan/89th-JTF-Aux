@@ -19,6 +19,7 @@ class cfgWeapons
 {
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
+	class ItemInfo;
 	//Helmet
 	class 89th_Marine_Chrysler_WDL_CH252: VES_CH252_MAR_Vacuum
 	{

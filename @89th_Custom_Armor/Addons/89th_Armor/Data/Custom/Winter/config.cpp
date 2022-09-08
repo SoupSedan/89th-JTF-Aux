@@ -18,6 +18,7 @@ class cfgPatches
 class cfgWeapons
 {
 	class VES_CH252_MAR_Crew;
+	class ItemInfo;
 	//Helmet 
 	class 89th_Crewman_Winter: Ves_CH252_MAR_Crew
 	{

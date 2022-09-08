@@ -20,6 +20,8 @@ class cfgWeapons
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet
 	class 89th_Marine_Clark_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
@@ -361,7 +363,7 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	};
-	class 89th_M52A_Clark_DES: 89th_M52A_Teamleader
+	class 89th_M52A_Clark_DES: 89th_M52A_Clark
 	{
 		dlc="89thJTF";
 		author="Soup, Clark";
@@ -403,3 +405,4 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	};
+};

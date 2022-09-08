@@ -20,6 +20,8 @@ class cfgWeapons
 	class VES_CH252D;
 	class VES_CH252D_dp;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class Jarvis_CH252D: VES_CH252D
 	{

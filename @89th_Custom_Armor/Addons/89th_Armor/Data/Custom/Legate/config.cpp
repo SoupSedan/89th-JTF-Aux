@@ -19,6 +19,8 @@ class cfgWeapons
 {
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class 89th_Marine_URB_Legate_CH252: VES_CH252_MAR_Light
 	{

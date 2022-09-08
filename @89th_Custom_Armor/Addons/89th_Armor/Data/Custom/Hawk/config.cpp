@@ -19,6 +19,8 @@ class cfgWeapons
 {
 	class VES_CH252_MAR_Crew;
 	class VES_M52D_Rifleman;
+	class ItemInfo;
+	class VestItem;
 	//Helmet 
 	class 89th_Crewman_Hawk: VES_CH252_MAR_Crew
 	{
