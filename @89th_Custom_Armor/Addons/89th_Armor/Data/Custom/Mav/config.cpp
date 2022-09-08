@@ -1,150 +1,145 @@
-class CfgPatches
+class cfgPatches
 {
-	class 89th_Custom_Flips
+	class 89th_Armor_Custom
 	{
-		author="Flips";
-		requiredAddons[]={};
-		requiredVersion=0.1;
+		author="89th Mod Team";
+		name="89th JTF Mod";
 		units[]={};
-		weapons[]={};
-	};
-};
-class CfgWeapons
-{
-	class H_Watchcap_khk;
-	class 89th_woolhat_Flips: H_Watchcap_khk
-	{
-		author="Flips";
-		displayName="Beanie (Flips)";
-		hiddenSelectionsTextures[]=
+		magazines[]={};
+		ammo[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_woolhat_Flips.paa"
+			"V_FZ_Armor",
+			"OPTRE_Core",
 		};
 	};
+};
+class cfgWeapons
+{
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
 	class ItemInfo;
 	class VestItem;
-	//Helmet
-	class 89th_Marine_Flips_ARD: VES_CH252_MAR_Light
+	//Helmet 
+	class 89th_Marine_ARD_Mav_CH252: VES_CH252_MAR_Light
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Flips, Vespade";
-		displayName="[89th] CH252 (Flips)(ARD)";
+		author="Soup, Vespade";
+		displayName="[89th] CH252 (Mav)(ARD)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+			"89th_Armor\Data\Custom\Mav\89th_MAV_helmet_ARD_CO.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_ARD.paa",
+				"89th_Armor\Data\Custom\Mav\89th_MAV_helmet_ARD_CO.paa",
 				""
 			};
 		};
 	};
-	class 89th_Marine_Flips_DES: VES_CH252_MAR_Light
+			class 89th_Marine_DES_Mav_CH252: VES_CH252_MAR_Light
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Flips, Vespade";
-		displayName="[89th] CH252 (Flips)(DES)";
+		author="Soup, Vespade";
+		displayName="[89th] CH252 (Mav)(DES)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+			"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_DES_CO.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_DES.paa",
+				"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_DES_CO.paa",
 				""
 			};
 		};
 	};
-	class 89th_Marine_Flips_SNW: VES_CH252_MAR_Light
+			class 89th_Marine_SNW_Mav_CH252: VES_CH252_MAR_Light
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Flips, Vespade";
-		displayName="[89th] CH252 (Flips)(SNW)";
+		author="Soup, Vespade";
+		displayName="[89th] CH252 (Mav)(SNW)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+			"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_SNW_CO.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_SNW.paa",
+				"89th_Armor\Data\Custom\Mav\89th_mav_helmet_SNW_CO.paa",
 				""
 			};
 		};
 	};
-	class 89th_Marine_Flips_WDL: VES_CH252_MAR_Light
+			class 89th_Marine_URB_Mav_CH252: VES_CH252_MAR_Light
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Flips, Vespade";
-		displayName="[89th] CH252 (Flips)(WDL)";
+		author="Soup, Vespade";
+		displayName="[89th] CH252 (Mav)(URB)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+			"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_URB_CO.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_WDL.paa",
+				"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_URB_CO.paa",
 				""
 			};
 		};
 	};
-	class 89th_Marine_Flips_URB: VES_CH252_MAR_Light
+			class 89th_Marine_WDL_Mav_CH252: VES_CH252_MAR_Light
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Flips, Vespade";
-		displayName="[89th] CH252 (Flips)(URB)";
+		author="Soup, Vespade";
+		displayName="[89th] CH252 (Mav)(WDL)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+			"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_WDL_CO.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Armor\Data\Custom\Flips\89th_marine_Flips_URB.paa",
+				"89th_Armor\Data\Custom\Mav\89th_Mav_helmet_WDL_CO.paa",
 				""
 			};
 		};
 	};
 	//Vest
-	class 89th_M52A_Flips_ARD: VES_M52D_Rifleman
+	class 89th_M52_Mav: VES_M52D_Rifleman
 	{
 		dlc="89thJTF";
-		author="Flips, Vespade";
-		displayName="[89th] M52A (Flips) (ARD)";
+		author="Soup, Vespade";
+		displayName="[89th] M52A (Mav) (ARD)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\ARD\89th_Soft_Vest_ARD.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_ARD.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_ARD.paa",
+			"89th_Armor\Data\Custom\Mav\89th_M52_Mav_ARD_CO.paa",
+			"89th_Armor\Data\Basic\ARD\89th_M52_ARD_Underlay_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"\89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"
-		};
+			"89th_Armor\Data\Basic\ARD\89th_M52D_ARD_CO.paa"};
 		class ItemInfo: VestItem
 		{
 			mass=75;
@@ -173,10 +168,10 @@ class CfgWeapons
 			\\	"A_ChestArmor",
 			\\	"A_KneesLeft",
 			\\	"A_KneesRight",
-				"A_KneesMarLeft",
+			\\	"A_KneesMarLeft",
 			\\	"A_KneesMarRight",
 				"A_ODST",
-				"A_ShinArmorLeft",
+			\\	"A_ShinArmorLeft",
 			\\	"A_ShinArmorRight",
 				"A_TacPad",
 			\\	"A_ThighArmorLeft",
@@ -186,29 +181,29 @@ class CfgWeapons
 			\\	"AS_LargeLeft",
 				"AS_LargeRight",
 				"AS_MediumLeft",
-			\\	"AS_MediumRight",
+				"AS_MediumRight",
 				"AS_ODSTCQBLeft",
 				"AS_ODSTCQBRight",
 				"AS_ODSTLeft",
-				"AS_ODSTRight",
+			\\	"AS_ODSTRight",
 				"AS_ODSTSniperLeft",
 				"AS_ODSTSniperRight",
 				"AS_SmallLeft",
 				"AS_SmallRight",
-			\\	"AP_Canteen",
+				"AP_Canteen",
 				"AP_GL",
-				"AP_Knife",
+			\\	"AP_Knife",
 				"AP_MGThigh",
 				"AP_AR",
 				"AP_BR",
-				"AP_Pack",
+			\\	"AP_Pack",
 			\\	"AP_Pistol",
-				"AP_Rounds",
+			\\	"AP_Rounds",
 				"AP_SG",
 				"AP_SMG",
 			\\	"AP_Sniper",
 				"AP_Thigh",
-				"AP_Frag",
+			\\	"AP_Frag",
 			\\	"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
@@ -218,59 +213,59 @@ class CfgWeapons
 				"CustomKit_Scorch"
 			};
 		};
-	};	
-	class 89th_M52A_Flips_DES: 89th_M52A_Flips_ARD
+	};
+	class 89th_M52_Mav_DES: 89th_M52_Mav
 	{
 		dlc="89thJTF";
-		author="Flips, Vespade";
-		displayName="[89th] M52A (Flips) (DES)";
+		author="Soup, Vespade";
+		displayName="[89th] M52A (Mav) (DES)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_DES.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_DES.paa",
+			"89th_Armor\Data\Custom\Mav\89th_M52_Mav_DES_CO.paa",
+			"89th_Armor\Data\Basic\DES\89th_M52_DES_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
 		};
 	};
-	class 89th_M52A_Flips_SNW: 89th_M52A_Flips_ARD
+	class 89th_M52_Mav_URB: 89th_M52_Mav
 	{
 		dlc="89thJTF";
-		author="Flips, Vespade";
-		displayName="[89th] M52A (Flips) (SNW)";
-		hiddenSelectionsTextures[]=
-		{	
-			"89th_Armor\Data\Basic\SNW\89th_Soft_Vest_SNW.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_SNW.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_SNW.paa",
-			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\SNW\89th_M52D_SNW_CO.paa"
-		};
-	};
-	class 89th_M52A_Flips_URB: 89th_M52A_Flips_ARD
-	{
-		dlc="89thJTF";
-		author="Flips, Vespade";
-		displayName="[89th] M52A (Flips) (URB)";
+		author="Soup, Vespade";
+		displayName="[89th] M52A (Mav) (URB)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\URB\89th_Soft_Vest_URB.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_URB.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_URB.paa",
+			"89th_Armor\Data\Custom\Mav\89th_M52_Mav_URB_CO.paa",
+			"89th_Armor\Data\Basic\URB\89th_M52_URB_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Armor\Data\Basic\URB\89th_M52D_URB_CO.paa"
 		};
 	};
-	class 89th_M52A_Flips_WDL: 89th_M52A_Flips_ARD
+	class 89th_M52_Mav_SNW: 89th_M52_Mav
 	{
 		dlc="89thJTF";
-		author="Flips, Vespade";
-		displayName="[89th] M52A (Flips) (WDL)";
+		author="Soup, Vespade";
+		displayName="[89th] M52A (Mav) (SNW)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Armor\Data\Basic\SNW\89th_Soft_Vest_SNW.paa",
+			"89th_Armor\Data\Custom\Mav\89th_M52_Mav_SNW_CO.paa",
+			"89th_Armor\Data\Basic\SNW\89th_M52_SNW_UNDERLAY_CO.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Armor\Data\Basic\SNW\89th_M52D_SNW_CO.paa"
+		};
+	};
+	class 89th_M52_Mav_WDL: 89th_M52_Mav
+	{
+		dlc="89thJTF";
+		author="Soup, Vespade";
+		displayName="[89th] M52A (Mav) (WDL)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\WDL\89th_Soft_Vest_WDL.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_Flips_WDL.paa",
-			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_WDL.paa",
+			"89th_Armor\Data\Custom\Mav\89th_M52_Mav_WDL_CO.paa",
+			"89th_Armor\Data\Basic\WDL\89th_M52_WDL_UNDERLAY_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Armor\Data\Basic\WDL\89th_M52D_WDL_CO.paa"
 		};
