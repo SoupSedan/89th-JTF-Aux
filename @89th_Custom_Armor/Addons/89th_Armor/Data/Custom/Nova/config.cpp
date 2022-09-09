@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_Armor_Custom
+	class 89th_Custom_Nova
 	{
 		author="89th Mod Team";
 		name="89th JTF Mod";
@@ -35,7 +35,7 @@ class cfgWeapons
 	class ItemInfo;
 	class VestItem;
 //Nova Helmet
-	 class 89th_Marine_Nova_WDL_CH252: VES_CH252_MAR_Vacuum
+	class 89th_Marine_Nova_WDL_CH252: VES_CH252_MAR_Vacuum
 	{
 		dlc="89thCUArmor";
 		scope=2;
