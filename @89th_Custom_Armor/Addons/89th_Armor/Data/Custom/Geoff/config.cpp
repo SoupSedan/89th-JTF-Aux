@@ -232,4 +232,5 @@ class cfgWeapons
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
-	}
+	};
+};
