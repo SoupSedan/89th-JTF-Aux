@@ -28,7 +28,7 @@ class CfgVehicles
 		displayName="Prototype Compact Recon Drone";
 		scope=2;
 		side=1;
-		faction="89th_JTF";
+		faction="89th_JTF_BLUFOR";
 		extCameraPosition[] = {0,0,-2};
 		class assembleInfo
 		{

@@ -6,9 +6,9 @@ class ACE_Tags
 		requiredItem="VES_TacSpraycan";
 		textures[]=
 		{
-			"89th_Objects\Data\Sprays\1_2_ca"
+			"89th_Functions\Data\Sprays\1_2_ca"
 		};
-		icon="89th_Objects\Data\Sprays\1_2_ca";
+		icon="89th_Functions\Data\Sprays\1_2_ca";
 	};
 	class 89thAnvil
 	{
@@ -16,9 +16,9 @@ class ACE_Tags
 		requiredItem="VES_TacSpraycan";
 		textures[]=
 		{
-			"89th_Objects\Data\Sprays\Anvil_ca"
+			"89th_Functions\Data\Sprays\Anvil_ca"
 		};
-		icon="89th_Objects\Data\Sprays\Anvil_ca";
+		icon="89th_Functions\Data\Sprays\Anvil_ca";
 	};
 	class 89thGoliath
 	{
@@ -26,8 +26,8 @@ class ACE_Tags
 		requiredItem="VES_TacSpraycan";
 		textures[]=
 		{
-			"89th_Objects\Data\Sprays\Goliath_Spray_ca"
+			"89th_Functions\Data\Sprays\Goliath_Spray_ca"
 		};
-		icon="89th_Objects\Data\Sprays\Goliath_Spray_ca";
+		icon="89th_Functions\Data\Sprays\Goliath_Spray_ca";
 	};
 };
