@@ -15,15 +15,6 @@ class CfgPatches
 class CfgWeapons
 {
 	class H_Watchcap_khk;
-	class 89th_woolhat_Flips: H_Watchcap_khk
-	{
-		author="Flips";
-		displayName="Beanie (Flips)";
-		hiddenSelectionsTextures[]=
-		{
-			"89th_Armor\Data\Custom\Flips\89th_woolhat_Flips.paa"
-		};
-	};
 	class VES_CH252_MAR_Light;
 	class VES_M52D_Rifleman;
 	class ItemInfo;
@@ -276,6 +267,16 @@ class CfgWeapons
 			"89th_Armor\Data\Custom\Flips\89th_M52_UNDERLAY_Flips_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Armor\Data\Basic\WDL\89th_M52D_WDL_CO.paa"
+		};
+	};
+	//Misc
+	class 89th_woolhat_Flips: H_Watchcap_khk
+	{
+		author="Flips";
+		displayName="Beanie (Flips)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Flips\89th_woolhat_Flips.paa"
 		};
 	};
 };
