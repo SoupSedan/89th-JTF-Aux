@@ -3,7 +3,10 @@ class CfgPatches
 	class 89th_Custom_Flips
 	{
 		author="Flips";
-		requiredAddons[]={};
+		requiredAddons[]={
+			"V_FZ_Armor",
+			"OPTRE_Core",
+		};
 		requiredVersion=0.1;
 		units[]={};
 		weapons[]={};
