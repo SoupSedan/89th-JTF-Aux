@@ -1,13 +1,23 @@
 class cfgPatches
 {
-	class 89th_Headgear
+	class 89th_8point_patch
 	{
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		author="89th Mod Team";
+		name="89th JTF Mod";
+		units[]={};
+		weapons[]=
+		{
+			"89th8point_Base", "89th8point_ARD", "89th8point_DES",
+			"89th8point_SNW", "89th8point_URB", "89th8point_WDL",
+			"89th8point_M_Base", "89th8point_M_ARD", "89th8point_M_DES",
+			"89th8point_M_SNW", "89th8point_M_URB", "89th8point_M_WDL",
+		};
+		magazines[]={};
+		ammo[]={};
+		requiredVersion=0.1;
+		requiredAddons[]={};
 	};
 };
-
 class cfgWeapons 
 {
 	class ItemCore;
