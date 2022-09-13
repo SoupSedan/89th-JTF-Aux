@@ -53,7 +53,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Epsilon, Flips";
-		displayName="[89th] 8 Point (URB)";
+		displayName="[89th] 8 Point  (URB)";
 		hiddenSelectionsTextures[]=
 		{
 		"89th_Armor\Data\Uniform\8point\MarineCap1_URB.paa",
@@ -71,7 +71,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Epsilon, Flips";
-		displayName="[89th] 8 Point (WDL)";
+		displayName="[89th] 8 Point  (WDL)";
 		hiddenSelectionsTextures[]=
 		{
 		"89th_Armor\Data\Uniform\8point\MarineCap1_WDL.paa",
@@ -89,7 +89,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Epsilon, Flips";
-		displayName="[89th] 8 Point (SNW)";
+		displayName="[89th] 8 Point  (SNW)";
 		hiddenSelectionsTextures[]=
 		{
 		"89th_Armor\Data\Uniform\8point\MarineCap1_SNW.paa",
@@ -107,7 +107,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Epsilon, Flips";
-		displayName="[89th] 8 Point (ARD)";
+		displayName="[89th] 8 Point  (ARD)";
 		hiddenSelectionsTextures[]=
 		{
 		"89th_Armor\Data\Uniform\8point\MarineCap1_ARD.paa",
@@ -125,7 +125,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Epsilon, Flips";
-		displayName="[89th] 8 Point (DES)";
+		displayName="[89th] 8 Point  (DES)";
 		hiddenSelectionsTextures[]=
 		{
 		"89th_Armor\Data\Uniform\8point\MarineCap1_DES.paa",
@@ -135,6 +135,114 @@ class cfgWeapons
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Armor\Data\Uniform\8point\MarineCap1_DES.paa",
+			};
+		};
+	};
+	class 89th8point_M_Base: 89th8point_Base
+	{
+		author = "Soup, Epsilon, Flips";
+		displayName = "[89th] 8 point Medic";
+		model = "89th_Armor\Data\Uniform\8point\MarineCap1_M.p3d";
+		hiddenSelections[]=
+		{
+			"camo",
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel = "89th_Armor\Data\Uniform\8point\MarineCap1_M.p3d";
+			hiddenSelections[]=
+			{
+				"camo",
+			};
+		};
+	};
+	class 89th8point_M_URB: 89th8point_M_Base
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Soup, Epsilon, Flips";
+		displayName="[89th] 8 Point (Medic)(URB)";
+		hiddenSelectionsTextures[]=
+		{
+		"89th_Armor\Data\Uniform\8point\MarineCap1_M_URB.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Uniform\8point\MarineCap1_M_URB.paa",
+			};
+		};
+	};
+	class 89th8point_M_WDL: 89th8point_M_Base
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Soup, Epsilon, Flips";
+		displayName="[89th] 8 Point (Medic)(WDL)";
+		hiddenSelectionsTextures[]=
+		{
+		"89th_Armor\Data\Uniform\8point\MarineCap1_M_WDL.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Uniform\8point\MarineCap1_M_WDL.paa",
+			};
+		};
+	};
+	class 89th8point_M_SNW: 89th8point_M_Base
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Soup, Epsilon, Flips";
+		displayName="[89th] 8 Point (Medic)(SNW)";
+		hiddenSelectionsTextures[]=
+		{
+		"89th_Armor\Data\Uniform\8point\MarineCap1_M_SNW.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Uniform\8point\MarineCap1_M_SNW.paa",
+			};
+		};
+	};
+	class 89th8point_M_ARD: 89th8point_M_Base
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Soup, Epsilon, Flips";
+		displayName="[89th] 8 Point (Medic)(ARD)";
+		hiddenSelectionsTextures[]=
+		{
+		"89th_Armor\Data\Uniform\8point\MarineCap1_M_ARD.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Uniform\8point\MarineCap1_M_ARD.paa",
+			};
+		};
+	};
+	class 89th8point_M_DES: 89th8point_M_Base
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Soup, Epsilon, Flips";
+		displayName="[89th] 8 Point (Medic)(DES)";
+		hiddenSelectionsTextures[]=
+		{
+		"89th_Armor\Data\Uniform\8point\MarineCap1_M_DES.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Uniform\8point\MarineCap1_M_DES.paa",
 			};
 		};
 	};
