@@ -33,7 +33,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Geoff\89th_geoff_helmet_WDL_CO.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -75,7 +75,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Geoff\89th_Geoff_helmet_urb_CO.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -117,7 +117,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Geoff\89th_Geoff_helmet_des_CO.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -159,7 +159,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Geoff\89th_Geoff_helmet_ard_CO.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -201,7 +201,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Armor\Data\Custom\Geoff\89th_Geoff_helmet_snw_CO.paa",
-			"89th_Armor\Data\Visors\89th_Marine_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
