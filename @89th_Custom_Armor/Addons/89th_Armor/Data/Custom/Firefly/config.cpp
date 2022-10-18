@@ -17,10 +17,212 @@ class cfgPatches
 };
 class cfgWeapons
 {
+	class VES_CH252D;
+	class VES_CH252D_dp;
 	class VES_M52D_Rifleman;
 	class ItemInfo;
 	class VestItem;
 	//Helmet
+	class 89th_CH252D_Firefly_ARD: VES_CH252D
+	{
+		dlc="89thJTF";
+		author="Rojas, Vespade";
+		displayName="[89th] CH252D (Firefly)(ARD)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_ARD.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_ARD.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_ARD_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Rojas, Vespade";
+		displayName="[89th] CH252D (ARD)(Firefly)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_ARD.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_ARD.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_DES: VES_CH252D
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(DES)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_DES.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Bler\89th_BLER_DES_CO.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_DES_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(DES)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_DES.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_DES.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_SNW: VES_CH252D
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(SNW)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_SNW.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Bler\89th_BLER_SNW_CO.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_SNW_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(SNW)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_SNW.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_SNW.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_URB: VES_CH252D
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(URB)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_URB.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_URB.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_URB_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_URB.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_URB.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_WDL: VES_CH252D
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(WDL)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_WDL.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_WDL.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
+	class 89th_CH252D_Firefly_WDL_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Ice, Vespade";
+		displayName="[89th] CH252D (Firefly)(WDL)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_WDL.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Armor\Data\Custom\Firefly\ODST_CH252D_Firefly_WDL.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			};
+		};
+	};
 	//Vest
 	class 89th_M52D_Firefly: VES_M52D_Rifleman
 	{
