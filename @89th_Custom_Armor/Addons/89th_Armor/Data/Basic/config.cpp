@@ -1042,7 +1042,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_Marine_B_M52A_URB_CLS: VES_M52A_MAR_Corpsman_A
+	class 89th_Marine_B_M52A_URB_CLS: 89th_M52A_CLS
 	{
 		dlc="89thJTF";
 		author="Tas, Geek, and Vespade";
@@ -1060,7 +1060,7 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	};
-	class 89th_Marine_B_M52A_SNW_CLS: VES_M52A_MAR_Corpsman_A
+	class 89th_Marine_B_M52A_SNW_CLS: 89th_M52A_CLS
 	{
 		dlc="89thJTF";
 		author="Tas, Geek, and Vespade";
@@ -1078,7 +1078,7 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	};
-	class 89th_Marine_B_M52A_DES_CLS: VES_M52A_MAR_Corpsman_A
+	class 89th_Marine_B_M52A_DES_CLS: 89th_M52A_CLS
 	{
 		dlc="89thJTF";
 		author="Tas, Geek, and Vespade";
@@ -1096,7 +1096,7 @@ class cfgWeapons
 			vestType="Rebreather";
 		};
 	}
-	class 89th_Marine_B_M52A_WDL_CLS: VES_M52A_MAR_Corpsman_A
+	class 89th_Marine_B_M52A_WDL_CLS: 89th_M52A_CLS
 	{
 		dlc="89thJTF";
 		author="Tas, Geek, and Vespade";
