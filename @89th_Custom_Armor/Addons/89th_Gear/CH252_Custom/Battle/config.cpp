@@ -26,7 +26,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="[89th] CH252A (Battle)(BLK)";
+		displayName="[89th] CH252A (Battle)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -47,7 +47,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="CH252A (Battle)(BLK)[OFF]";
+		displayName="CH252A (Battle)[OFF]";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{

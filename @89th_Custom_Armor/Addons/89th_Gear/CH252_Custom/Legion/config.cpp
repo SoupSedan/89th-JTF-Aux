@@ -26,7 +26,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="[89th] CH252A (Legion)(BLK)";
+		displayName="[89th] CH252A (Legion)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -47,7 +47,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="CH252A (Legion)(BLK)[OFF]";
+		displayName="CH252A (Legion)[OFF]";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{

@@ -26,7 +26,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="[89th] CH252A (Garrus)(BLK)";
+		displayName="[89th] CH252A (Garrus)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -47,7 +47,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Soup, Vespade";
-		displayName="CH252A (Garrus)(BLK)[OFF]";
+		displayName="CH252A (Garrus)[OFF]";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
