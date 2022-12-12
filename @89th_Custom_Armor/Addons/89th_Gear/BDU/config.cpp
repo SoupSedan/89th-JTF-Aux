@@ -153,7 +153,7 @@ class cfgVehicles
 			"89th_Gear\BDU\89th_BDU_WDL.paa",
 			"89th_Gear\BDU\89th_BDU_WDL.paa"
 		};
-		uniformClass="89th_BDU_WTS_SLIM";
+		uniformClass="89th_BDU_WDL_SLIM";
 	};
 	class 89th_BDU_V_URB_SLIM: VES_BDU_V_Evolved_Slim
 	{
@@ -191,7 +191,7 @@ class cfgVehicles
 		};
 		uniformClass="89th_BDU_ARD_SLIM";
 	};
-	class 89th_BDU_R_V_WTS_SLIM: VES_BDU_R_V_Evolved_SLIM
+	class 89th_BDU_R_V_WDL_SLIM: VES_BDU_R_V_Evolved_SLIM
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -271,7 +271,7 @@ class XtdGearModels
 			class style
 			{
 				label="Style";
-				alwaysSelectable=1;
+				alwaysSelectable=2;
 				values[]=
 				{
 					"normal",
@@ -327,7 +327,7 @@ class XtdGearModels
 				class legion
 				{
 					label="Legion";
-					image="89th_Core\Emblems\89th_Legion_Emblem.paa"
+					image="89th_Core\Emblems\Legion.paa"
 				};
 			};
 		};
@@ -337,10 +337,10 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		class 89th_BDU_V_ARD_SLIM
+		class 89th_BDU_ARD_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="ARD";
 		};
 		class 89th_BDU_R_ARD_SLIM
@@ -348,10 +348,11 @@ class XtdGearInfos
 			model="89th_BDU";
 			style="rolled";
 			camo="ARD";
-		};class 89th_BDU_V_DES_SLIM
+		};
+		class 89th_BDU_DES_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="DES";
 		};
 		class 89th_BDU_R_DES_SLIM
@@ -359,10 +360,11 @@ class XtdGearInfos
 			model="89th_BDU";
 			style="rolled";
 			camo="DES";
-		};class 89th_BDU_V_SNW_SLIM
+		};
+		class 89th_BDU_SNW_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="SNW";
 		};
 		class 89th_BDU_R_SNW_SLIM
@@ -370,10 +372,11 @@ class XtdGearInfos
 			model="89th_BDU";
 			style="rolled";
 			camo="SNW";
-		};class 89th_BDU_V_URB_SLIM
+		};
+		class 89th_BDU_URB_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="URB";
 		};
 		class 89th_BDU_R_URB_SLIM
@@ -382,10 +385,10 @@ class XtdGearInfos
 			style="rolled";
 			camo="URB";
 		};
-		class 89th_BDU_V_WDL_SLIM
+		class 89th_BDU_WDL_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="WDL";
 		};
 		class 89th_BDU_R_WDL_SLIM
@@ -393,10 +396,11 @@ class XtdGearInfos
 			model="89th_BDU";
 			style="rolled";
 			camo="WDL";
-		};class 89th_BDU_V_Legion_SLIM
+		};
+		class 89th_BDU_Legion_SLIM
 		{
 			model="89th_BDU";
-			style="standard";
+			style="normal";
 			camo="Legion";
 		};
 		class 89th_BDU_R_Legion_SLIM

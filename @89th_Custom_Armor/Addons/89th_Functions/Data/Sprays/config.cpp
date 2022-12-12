@@ -5,10 +5,7 @@ class CfgPatches
 		author="89th Mod Team";
 		name="A2D: Fireteam Zulu";
 		requiredVersion=1;
-		requiredAddons[]=
-		{
-			"89th_Core"
-		};
+		requiredAddons[]={};
 	};
 };
 class CfgWeapons

@@ -198,11 +198,30 @@ class XtdGearModels
 			author="89th Mod Team";
 			options[]=
 			{
+				"seal",
 				"special",
 				"camo",
 				"color",
 				"visor"
 				
+			};
+			class seal
+			{
+				label="Vaccum Seal";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"open",
+					"vac"
+				};
+				class open
+				{
+					label="Open-faced";
+				};
+				class vac
+				{
+					label="Vac Sealed";
+				};
 			};
 			class special
 			{
@@ -221,7 +240,7 @@ class XtdGearModels
 				class corp
 				{
 					label="Corpsman";
-					image="89th_Core\Corpsman.paa";
+					image="89th_Core\Emblems\Corpsman.paa";
 				};
 			};
 			class camo
@@ -310,75 +329,6 @@ class XtdGearModels
 				class off
 				{
 					label="Off";
-				};
-			};
-		};
-		class 89th_CH252A_Light_Helmets
-		{
-			label="[89th] CH252A Light"
-			author="89th Mod Team";
-			options[]=
-			{
-				"special",
-				"camo"
-				
-			};
-			class special
-			{
-				label="Specialization";
-				alwaysSelectable=1;
-				values[]=
-				{
-					"marine",
-					"corp"
-				};
-				class marine
-				{
-					label="Marine";
-					image="89th_Core\Anvil.paa";
-				};
-				class corp
-				{
-					label="Corpsman";
-					image="89th_Core\Corpsman.paa";
-				};
-			};
-			class camo
-			{
-				label="Camo";
-				alwaysSelectable=1;
-				values[]=
-				{
-					"ARD",
-					"DES",
-					"SNW",
-					"URB",
-					"WDL"
-				};
-				class ARD
-				{
-					label="Arid";
-					image="#(rgb,8,8,3)color(0.278,0.243,0.149,1)";
-				};
-				class DES
-				{
-					label="Desert";
-					image="#(rgb,8,8,3)color(0.431,0.369,0.302,1)";
-				};
-				class SNW
-				{
-					label="Snow";
-					image="#(rgb,8,8,3)color(0.882,0.894,0.902,1)";
-				};
-				class URB
-				{
-					label="Urban";
-					image="#(rgb,8,8,3)color(0.192,0.212,0.259,1)";
-				};
-				class WDL
-				{
-					label="Woodland";
-					image="#(rgb,8,8,3)color(0.118,0.137,0.020,1)";
 				};
 			};
 		};
@@ -492,6 +442,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="silver";
@@ -500,6 +451,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="silver";
@@ -508,6 +460,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="gold";
@@ -516,6 +469,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="gold";
@@ -523,6 +477,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLU_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="blue";
@@ -531,6 +486,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLU_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="blue";
@@ -538,6 +494,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLK_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="black";
@@ -546,6 +503,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLK_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="ARD";
 			color="black";
@@ -554,6 +512,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="silver";
@@ -562,6 +521,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="silver";
@@ -570,6 +530,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="gold";
@@ -578,6 +539,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="gold";
@@ -585,6 +547,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLU_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="blue";
@@ -593,6 +556,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLU_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="blue";
@@ -600,6 +564,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLK_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="black";
@@ -608,6 +573,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLK_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="DES";
 			color="black";
@@ -616,6 +582,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="silver";
@@ -624,6 +591,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="silver";
@@ -632,6 +600,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="gold";
@@ -640,6 +609,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="gold";
@@ -647,6 +617,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLU_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="blue";
@@ -655,6 +626,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLU_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="blue";
@@ -662,6 +634,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLK_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="black";
@@ -670,6 +643,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLK_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="SNW";
 			color="black";
@@ -678,6 +652,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="silver";
@@ -686,6 +661,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="silver";
@@ -694,6 +670,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="gold";
@@ -702,6 +679,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="gold";
@@ -709,6 +687,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLU_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="blue";
@@ -717,6 +696,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLU_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="blue";
@@ -724,6 +704,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLK_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="black";
@@ -732,6 +713,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLK_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="URB";
 			color="black";
@@ -740,6 +722,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="silver";
@@ -748,6 +731,7 @@ class XtdGearInfos
 		class 89th_CH252A_SLV_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="silver";
@@ -756,6 +740,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="gold";
@@ -764,6 +749,7 @@ class XtdGearInfos
 		class 89th_CH252A_GLD_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="gold";
@@ -771,6 +757,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLU_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="blue";
@@ -779,6 +766,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLU_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="blue";
@@ -786,6 +774,7 @@ class XtdGearInfos
 		};class 89th_CH252A_BLK_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="black";
@@ -794,6 +783,7 @@ class XtdGearInfos
 		class 89th_CH252A_BLK_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="marine";
 			camo="WDL";
 			color="black";
@@ -803,6 +793,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="silver";
@@ -811,6 +802,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="silver";
@@ -819,6 +811,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="gold";
@@ -827,6 +820,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="gold";
@@ -834,6 +828,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLU_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="blue";
@@ -842,6 +837,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="blue";
@@ -849,6 +845,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLK_ARD
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="black";
@@ -857,6 +854,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_ARD_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="ARD";
 			color="black";
@@ -865,6 +863,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="silver";
@@ -873,6 +872,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="silver";
@@ -881,6 +881,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="gold";
@@ -889,6 +890,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="gold";
@@ -896,6 +898,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLU_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="blue";
@@ -904,6 +907,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="blue";
@@ -911,6 +915,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLK_DES
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="black";
@@ -919,6 +924,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_DES_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="DES";
 			color="black";
@@ -927,6 +933,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="silver";
@@ -935,6 +942,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="silver";
@@ -943,6 +951,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="gold";
@@ -951,6 +960,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="gold";
@@ -958,6 +968,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLU_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="blue";
@@ -966,6 +977,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="blue";
@@ -973,6 +985,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLK_SNW
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="black";
@@ -981,6 +994,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_SNW_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="SNW";
 			color="black";
@@ -989,6 +1003,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="silver";
@@ -997,6 +1012,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="silver";
@@ -1005,6 +1021,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="gold";
@@ -1013,6 +1030,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="gold";
@@ -1020,6 +1038,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLU_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="blue";
@@ -1028,6 +1047,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="blue";
@@ -1035,6 +1055,7 @@ class XtdGearInfos
 		};class 89th_CH252A_M_BLK_URB
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="black";
@@ -1043,6 +1064,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_URB_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="URB";
 			color="black";
@@ -1051,6 +1073,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="silver";
@@ -1059,6 +1082,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_SLV_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="silver";
@@ -1067,6 +1091,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="gold";
@@ -1075,6 +1100,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_GLD_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="gold";
@@ -1083,6 +1109,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="blue";
@@ -1091,6 +1118,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLU_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="blue";
@@ -1099,6 +1127,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_WDL
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="black";
@@ -1107,6 +1136,7 @@ class XtdGearInfos
 		class 89th_CH252A_M_BLK_WDL_dp
 		{
 			model="89th_CH252A_Helmets";
+			seal="vac";
 			special="corp";
 			camo="WDL";
 			color="black";
@@ -1115,62 +1145,72 @@ class XtdGearInfos
 		//Marine Light Helmets
 		class 89th_CH252A_Light_ARD
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="marine";
 			camo="ARD";
 		};
 		class 89th_CH252A_Light_DES
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="marine";
 			camo="DES";
 		};
 		class 89th_CH252A_Light_SNW
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="marine";
 			camo="SNW";
 		};
 		class 89th_CH252A_Light_URB
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="marine";
 			camo="URB";
 		};
 		class 89th_CH252A_Light_WDL
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="marine";
 			camo="WDL";
 		};
 		//Corpsman Light Helmets
 		class 89th_CH252A_M_Light_ARD
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="corp";
 			camo="ARD";
 		};
 		class 89th_CH252A_M_Light_DES
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="corp";
 			camo="DES";
 		};
 		class 89th_CH252A_M_Light_SNW
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="corp";
 			camo="SNW";
 		};
 		class 89th_CH252A_M_Light_URB
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="corp";
 			camo="URB";
 		};
 		class 89th_CH252A_M_Light_WDL
 		{
-			model="89th_CH252A_Light_Helmets";
+			model="89th_CH252A_Helmets";
+			seal="open";
 			special="corp";
 			camo="WDL";
 		};
