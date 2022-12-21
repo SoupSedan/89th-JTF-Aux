@@ -27,7 +27,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Soup, Vespade";
+		author="Flips, Vespade";
 		displayName="[89th] CH252A (Flips)(ARD)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -48,7 +48,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Soup, Vespade";
+		author="Flips, Vespade";
 		displayName="[89th] CH252A (Flips)(DES)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -69,7 +69,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Soup, Vespade";
+		author="Flips, Vespade";
 		displayName="[89th] CH252A (Flips)(SNW)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -90,7 +90,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Soup, Vespade";
+		author="Flips, Vespade";
 		displayName="[89th] CH252A (Flips)(URB)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -111,7 +111,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Soup, Vespade";
+		author="Flips, Vespade";
 		displayName="[89th] CH252A (Flips)(WDL)";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=

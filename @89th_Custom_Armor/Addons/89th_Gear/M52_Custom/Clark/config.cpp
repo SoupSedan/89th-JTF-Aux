@@ -35,7 +35,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Clark\89th_M52A_Clark_ARD.paa",
 			"89th_Gear\M52_Custom\Clark\89th_M52_Underlay_Clark_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+			"89th_Gear\M52_Custom\Clark\89th_M52D_Clark_ARD.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -122,7 +122,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Clark\89th_M52A_Clark_DES.paa",
 			"89th_Gear\M52_Custom\Clark\89th_M52_Underlay_Clark_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
+			"89th_Gear\M52_Custom\Clark\89th_M52D_Clark_DES.paa"
 		};
 	};
 	class 89th_M52A_Clark_SNW: 89th_M52A_Clark_ARD
@@ -136,7 +136,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Clark\89th_M52A_Clark_SNW.paa",
 			"89th_Gear\M52_Custom\Clark\89th_M52_Underlay_Clark_SNW.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\SNW\89th_M52D_SNW.paa"
+			"89th_Gear\M52_Custom\Clark\89th_M52D_Clark_SNW.paa"
 		};
 	};
 	class 89th_M52A_Clark_URB: 89th_M52A_Clark_ARD
@@ -150,7 +150,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Clark\89th_M52A_Clark_URB.paa",
 			"89th_Gear\M52_Custom\Clark\89th_M52_Underlay_Clark_URB.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\URB\89th_M52D_URB.paa"
+			"89th_Gear\M52_Custom\Clark\89th_M52D_Clark_URB.paa"
 		};
 	};
 	class 89th_M52A_Clark_WDL: 89th_M52A_Clark_ARD
@@ -164,7 +164,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Clark\89th_M52A_Clark_WDL.paa",
 			"89th_Gear\M52_Custom\Clark\89th_M52_Underlay_Clark_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\WDL\89th_M52D_WDL.paa"
+			"89th_Gear\M52_Custom\Clark\89th_M52D_Clark_WDL.paa"
 		};
 	};
 };

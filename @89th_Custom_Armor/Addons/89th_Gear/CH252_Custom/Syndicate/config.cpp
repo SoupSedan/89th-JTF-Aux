@@ -33,7 +33,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="[89th] CH252A (Syndicate)(WDL)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -54,7 +54,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="CH252A (Syndicate)(WDL)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -75,7 +75,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="[89th] CH252A (Syndicate)(URB)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -96,7 +96,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="CH252A (Syndicate)(URB)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -116,7 +116,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="[89th] CH252A (Syndicate)(DES)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -137,7 +137,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="CH252A (Syndicate)(DES)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -157,7 +157,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="[89th] CH252A (Syndicate)(ARD)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -178,7 +178,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="CH252A (Syndicate)(ARD)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -198,7 +198,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="[89th] CH252A (Syndicate)(SNW)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -219,7 +219,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Ice, Vespade";
         displayName="CH252A (Syndicate)(SNW)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=

@@ -33,8 +33,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252D(Psycho)(WDL)";
+        author="Soup, Vespade";
+        displayName="[89th] CH252D (Psycho)(WDL)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -54,8 +54,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252D(Psycho)(WDL)[OFF]";
+        author="Soup, Vespade";
+        displayName="CH252D (Psycho)(WDL)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -75,8 +75,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252D(Psycho)(URB)";
+        author="Soup, Vespade";
+        displayName="[89th] CH252D (Psycho)(URB)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -96,8 +96,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252D(Psycho)(URB)[OFF]";
+        author="Soup, Vespade";
+        displayName="CH252D (Psycho)(URB)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -116,8 +116,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252D(Psycho)(DES)";
+        author="Soup, Vespade";
+        displayName="[89th] CH252D (Psycho)(DES)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -137,8 +137,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252D(Psycho)(DES)[OFF]";
+        author="Soup, Vespade";
+        displayName="CH252D (Psycho)(DES)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -157,8 +157,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252D(Psycho)(ARD)";
+        author="Soup, Vespade";
+        displayName="[89th] CH252D (Psycho)(ARD)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -178,8 +178,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252D(Psycho)(ARD)[OFF]";
+        author="Soup, Vespade";
+        displayName="CH252D (Psycho)(ARD)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -198,8 +198,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252D(Psycho)(SNW)";
+        author="Soup, Vespade";
+        displayName="[89th] CH252D (Psycho)(SNW)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
@@ -219,8 +219,8 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252D(Psycho)(SNW)[OFF]";
+        author="Soup, Vespade";
+        displayName="CH252D (Psycho)(SNW)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {

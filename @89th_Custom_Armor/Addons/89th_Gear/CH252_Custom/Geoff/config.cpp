@@ -33,7 +33,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="[89th] CH252A (Geoff)(WDL)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -54,20 +54,20 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="CH252A (Geoff)(WDL)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_WDL.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_WDL.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };
@@ -75,7 +75,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="[89th] CH252A (Geoff)(URB)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -96,27 +96,27 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="CH252A (Geoff)(URB)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_URB.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_URB.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Geoff_DES: 89th_CH252A
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="[89th] CH252A (Geoff)(DES)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -137,27 +137,27 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="CH252A (Geoff)(DES)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_DES.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_DES.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Geoff_ARD: 89th_CH252A
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="[89th] CH252A (Geoff)(ARD)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -178,27 +178,27 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="CH252A (Geoff)(ARD)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_ARD.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_ARD.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Geoff_SNW: 89th_CH252A
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="[89th] CH252A (Geoff)(SNW)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -219,20 +219,20 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Geoff, Vespade";
         displayName="CH252A (Geoff)(SNW)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_SNW.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Geoff\89th_CH252A_Geoff_SNW.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };

@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_Commpack_patch
+	class 89th_Commopack_patch
 	{
 		author="89th Mod Team";
 		name="89th JTF Mod";
@@ -122,7 +122,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"89th_Gear\Commpack\"
+			"89th_Gear\Commopack\Commopack_WDL.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -150,7 +150,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"89th_Armor\Data\Misc\Commopack_URB_CO.paa"
+			"89th_Gear\Commopack\Commopack_URB.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -178,7 +178,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"89th_Armor\Data\Misc\Commopack_ARD_CO.paa"
+			"89th_Gear\Commopack\Commopack_ARD.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -206,7 +206,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"89th_Armor\Data\Misc\Commopack_DES_CO.paa"
+			"89th_Gear\Commopack\Commopack_DES.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -234,7 +234,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"89th_Armor\Data\Misc\Commopack_SNW_CO.paa"
+			"89th_Gear\Commopack\Commopack_SNW.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";

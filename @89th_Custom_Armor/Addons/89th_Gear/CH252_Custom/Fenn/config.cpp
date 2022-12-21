@@ -33,7 +33,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="[89th] CH252A (Fenn)(WDL)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -54,7 +54,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="CH252A (Fenn)(WDL)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -75,7 +75,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="[89th] CH252A (Fenn)(URB)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -96,7 +96,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="CH252A (Fenn)(URB)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -116,7 +116,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="[89th] CH252A (Fenn)(DES)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -137,7 +137,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="CH252A (Fenn)(DES)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -157,7 +157,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="[89th] CH252A (Fenn)(ARD)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -178,7 +178,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="CH252A (Fenn)(ARD)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -198,7 +198,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="[89th] CH252A (Fenn)(SNW)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
@@ -219,7 +219,7 @@ class cfgWeapons
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
+        author="Soup, Vespade";
         displayName="CH252A (Fenn)(SNW)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=

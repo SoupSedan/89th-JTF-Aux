@@ -235,7 +235,7 @@ class XtdGearModels
 				class marine
 				{
 					label="Marine";
-					image="89th_Core\Anvil.paa";
+					image="89th_Core\Emblems\Anvil.paa";
 				};
 				class corp
 				{

@@ -60,14 +60,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_WDL.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_WDL.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };
@@ -102,14 +102,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_URB.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_URB.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Dragon_DES: 89th_CH252A
@@ -143,14 +143,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_DES.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_DES.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Dragon_ARD: 89th_CH252A
@@ -184,14 +184,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_ARD.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_ARD.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };class 89th_CH252A_Dragon_SNW: 89th_CH252A
@@ -225,14 +225,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_SNW.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Dragon\89th_CH252A_Dragon_SNW.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };
