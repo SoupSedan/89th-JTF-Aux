@@ -22,6 +22,7 @@ class cfgPatches
 class cfgWeapons
 {
 	class 89th_M52A_Rifleman;
+	class VES_M52D_Rifleman; 
 	class ItemInfo;
 	class VestItem;
 	class 89th_M52_Cyllen: VES_M52D_Rifleman
