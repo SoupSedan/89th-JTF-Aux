@@ -230,17 +230,53 @@ class XtdGearModels
 				values[]=
 				{
 					"marine",
-					"corp"
+					"corp",
+					"1_1",
+					"1_2",
+					"1_3",
+					"2_1",
+					"2_2",
+					"2_3"
 				};
 				class marine
 				{
-					label="Marine";
+					label="Standard";
 					image="89th_Core\Emblems\Anvil.paa";
 				};
 				class corp
 				{
 					label="Corpsman";
 					image="89th_Core\Emblems\Corpsman.paa";
+				};
+				class 1_1
+				{
+					label="1-1";
+					image="89th_Core\Emblems\Squads\11.paa";
+				};
+				class 1_2
+				{
+					label="1-2";
+					image="89th_Core\Emblems\Squads\12.paa";
+				};
+				class 1_3
+				{
+					label="1-3";
+					image="89th_Core\Emblems\Squads\13.paa";
+				};
+				class 2_1
+				{
+					label="2-1";
+					image="89th_Core\Emblems\Squads\21.paa";
+				};
+				class 2_2
+				{
+					label="2-2";
+					image="89th_Core\Emblems\Squads\22.paa";
+				};
+				class 2_3
+				{
+					label="2-3";
+					image="89th_Core\Emblems\Squads\23.paa";
 				};
 			};
 			class camo
@@ -1499,6 +1535,2329 @@ class XtdGearInfos
 			camo="WDL";
 			color="black";
 			visor="off";
+		};
+		//Squad Helmets
+					//Vac 11
+		class 89th_CH252A_SLV_11_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_11_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_11_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_11_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_11_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_11_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_11_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_11_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_11_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_11_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_11_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_11_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_11_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_11_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_11_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_11_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_11_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_11_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_11_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_11_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_11_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_11_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_11_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_11_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_11_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_11_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_11_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_11_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_11_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_11_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_11_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_11_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_11_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_11_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_11_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_11_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_11_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_11_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_11_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_11_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_1";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 11
+		class 89th_CH252A_Light_11_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_1";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_11_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_1";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_11_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_1";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_11_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_1";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_11_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_1";
+			camo="WDL";
+		};
+					//Vac 12
+		class 89th_CH252A_SLV_12_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_12_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_12_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_12_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_12_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_12_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_12_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_12_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_12_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_12_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_12_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_12_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_12_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_12_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_12_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_12_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_12_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_12_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_12_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_12_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_12_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_12_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_12_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_12_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_12_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_12_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_12_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_12_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_12_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_12_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_12_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_12_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_12_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_12_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_12_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_12_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_12_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_12_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_12_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_12_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_2";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 12
+		class 89th_CH252A_Light_12_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_2";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_12_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_2";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_12_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_2";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_12_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_2";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_12_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_2";
+			camo="WDL";
+		};
+					//Vac 13
+		class 89th_CH252A_SLV_13_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_13_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_13_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_13_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_13_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_13_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_13_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_13_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_13_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_13_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_13_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_13_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_13_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_13_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_13_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_13_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_13_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_13_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_13_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_13_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_13_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_13_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_13_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_13_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_13_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_13_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_13_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_13_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_13_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_13_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_13_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_13_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_13_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_13_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_13_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_13_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_13_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_13_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_13_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_13_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="1_3";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 13
+		class 89th_CH252A_Light_13_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_3";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_13_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_3";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_13_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_3";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_13_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_3";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_13_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="1_3";
+			camo="WDL";
+		};
+					//Vac 21
+		class 89th_CH252A_SLV_21_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_21_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_21_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_21_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_21_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_21_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_21_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_21_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_21_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_21_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_21_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_21_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_21_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_21_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_21_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_21_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_21_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_21_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_21_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_21_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_21_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_21_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_21_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_21_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_21_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_21_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_21_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_21_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_21_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_21_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_21_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_21_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_21_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_21_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_21_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_21_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_21_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_21_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_21_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_21_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_1";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 21
+		class 89th_CH252A_Light_21_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_1";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_21_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_1";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_21_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_1";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_21_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_1";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_21_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_1";
+			camo="WDL";
+		};
+					//Vac 22
+		class 89th_CH252A_SLV_22_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_22_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_22_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_22_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_22_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_22_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_22_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_22_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_22_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_22_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_22_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_22_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_22_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_22_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_22_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_22_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_22_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_22_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_22_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_22_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_22_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_22_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_22_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_22_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_22_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_22_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_22_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_22_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_22_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_22_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_22_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_22_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_22_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_22_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_22_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_22_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_22_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_22_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_22_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_22_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_2";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 22
+		class 89th_CH252A_Light_22_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_2";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_22_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_2";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_22_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_2";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_22_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_2";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_22_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_2";
+			camo="WDL";
+		};
+					//Vac 23
+		class 89th_CH252A_SLV_23_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_23_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_23_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_23_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_23_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_23_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_23_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_23_ARD_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="ARD";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_23_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_23_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_23_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_23_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_23_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_23_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_23_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_23_DES_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="DES";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_23_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_23_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_23_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_23_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_23_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_23_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_23_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_23_SNW_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="SNW";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_23_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_23_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_23_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_23_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_23_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_23_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_23_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_23_URB_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="URB";
+			color="black";
+			visor="off";
+		};
+		class 89th_CH252A_SLV_23_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="silver";
+			visor="on";
+		};
+		class 89th_CH252A_SLV_23_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="silver";
+			visor="off";
+		};
+		class 89th_CH252A_GLD_23_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="gold";
+			visor="on";
+		};
+		class 89th_CH252A_GLD_23_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="gold";
+			visor="off";
+		};class 89th_CH252A_BLU_23_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="blue";
+			visor="on";
+		};
+		class 89th_CH252A_BLU_23_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="blue";
+			visor="off";
+		};class 89th_CH252A_BLK_23_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="black";
+			visor="on";
+		};
+		class 89th_CH252A_BLK_23_WDL_dp
+		{
+			model="89th_CH252A_Helmets";
+			seal="vac";
+			special="2_3";
+			camo="WDL";
+			color="black";
+			visor="off";
+		};
+			//Open 23
+		class 89th_CH252A_Light_23_ARD
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_3";
+			camo="ARD";
+		};
+		class 89th_CH252A_Light_23_DES
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_3";
+			camo="DES";
+		};
+		class 89th_CH252A_Light_23_SNW
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_3";
+			camo="SNW";
+		};
+		class 89th_CH252A_Light_23_URB
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_3";
+			camo="URB";
+		};
+		class 89th_CH252A_Light_23_WDL
+		{
+			model="89th_CH252A_Helmets";
+			seal="open";
+			special="2_3";
+			camo="WDL";
 		};
 	};
 };
