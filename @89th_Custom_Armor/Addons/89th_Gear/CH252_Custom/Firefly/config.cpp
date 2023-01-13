@@ -9,6 +9,7 @@ class cfgPatches
 		{
 			"89th_CH252_patches"
 		};
+		units[] = {};
 		weapons[]=
 		{
 			"89th_CH252D_Firefly_ARD",
@@ -218,7 +219,7 @@ class cfgWeapons
     class 89th_CH252D_Firefly_SNW_dp: 89th_CH252D_dp
     {
         dlc="89thCUArmor";
-        scope=0;
+        scope=2;
         author="Rojas, Vespade";
         displayName="CH252D (Firefly)(SNW)[OFF]";
         CTAB_Camera="true";

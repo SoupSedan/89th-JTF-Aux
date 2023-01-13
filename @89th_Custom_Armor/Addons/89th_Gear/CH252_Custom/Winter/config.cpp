@@ -10,6 +10,7 @@ class cfgPatches
 			"89th_CH252_patches",
 			"V_FZ_Armor"
 		};
+		units[] = {};
 		weapons[]=
 		{
 			"89th_CH252C_Winter"

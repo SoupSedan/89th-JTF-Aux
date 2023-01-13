@@ -9,6 +9,7 @@ class cfgPatches
 		{
 			"89th_CH252_patches"
 		};
+		units[] = {};
 		weapons[]=
 		{
 			"89th_CH252A_Apa_ARD",
