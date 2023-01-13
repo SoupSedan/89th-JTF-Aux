@@ -5,6 +5,7 @@ class cfgPatches
 		author="89th Mod Team";
 		name="89th JTF Mod";
 		units[]={};
+		weapons[]={};
 		magazines[]={};
 		ammo[]={};
 		requiredVersion=0.1;

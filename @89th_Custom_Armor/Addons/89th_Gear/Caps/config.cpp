@@ -5,6 +5,7 @@ class cfgPatches
 		author="89th Mod Team";
 		name="89th JTF Mod";
 		requiredVersion=0.1;
+		units[]={};
 		weapons[]=
 		{
 			"89th_Boonie_ARD",

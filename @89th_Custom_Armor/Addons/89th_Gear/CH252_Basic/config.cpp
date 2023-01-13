@@ -8,6 +8,8 @@ class cfgPatches
 		{
 			"V_FZ_Armor",
 		};
+		units[] = {};
+		weapons[]= {};
 	};
 };
 class cfgWeapons

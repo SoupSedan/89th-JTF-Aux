@@ -9,6 +9,8 @@ class CfgPatches
 			"89th_CH252_patches"
 		};
 		requiredVersion=0.1;
+		units[] = {};
+		weapons[]= {};
 	};
 };
 
