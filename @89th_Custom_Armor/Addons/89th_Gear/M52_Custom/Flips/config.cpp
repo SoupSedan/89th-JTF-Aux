@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_M52A_Flips
+	class 89th_M52A_Custom
 	{
 		author="89th Mod Team";
 		addonRootClass="89th_M52_patches";

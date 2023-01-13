@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_CH252A_Rojas
+	class 89th_CH252A_Custom
 	{
 		author="89th Mod Team";
 		addonRootClass="89th_CH252_patches";
