@@ -327,7 +327,7 @@ class XtdGearModels
 				class legion
 				{
 					label="Legion";
-					image="89th_Core\Emblems\Legion.paa"
+					image="89th_Core\Emblems\Legion.paa";
 				};
 			};
 		};

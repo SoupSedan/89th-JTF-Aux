@@ -22,7 +22,7 @@ class cfgWeapons
 	class ItemInfo;
 	class 89th_Boonie_WDL: H_Booniehat_khk
 	{
-		author="Flips"
+		author="Flips";
 		displayName="[89th] Boonie Hat (WDL)";
 		hiddenSelectionsTextures[]=
 		{
@@ -31,7 +31,7 @@ class cfgWeapons
 	};
 	class 89th_Boonie_URB: H_Booniehat_khk
 	{
-		author="Flips"
+		author="Flips";
 		displayName="[89th] Boonie Hat (URB)";
 		hiddenSelectionsTextures[]=
 		{
@@ -40,7 +40,7 @@ class cfgWeapons
 	};
 	class 89th_Boonie_SNW: H_Booniehat_khk
 	{
-		author="Flips"
+		author="Flips";
 		displayName="[89th] Boonie Hat  (SNW)";
 		hiddenSelectionsTextures[]=
 		{
@@ -48,7 +48,7 @@ class cfgWeapons
 		};
 	};class 89th_Boonie_ARD: H_Booniehat_khk
 	{
-		author="Flips"
+		author="Flips";
 		displayName="[89th] Boonie Hat (ARD)";
 		hiddenSelectionsTextures[]=
 		{
@@ -57,7 +57,7 @@ class cfgWeapons
 	};
 	class 89th_Boonie_DES: H_Booniehat_khk
 	{
-		author="Flips"
+		author="Flips";
 		displayName="[89th] Boonie Hat (DES)";
 		hiddenSelectionsTextures[]=
 		{
