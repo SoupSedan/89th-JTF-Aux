@@ -742,7 +742,21 @@ class cfgWeapons
 		};
 		class ItemInfo: VestItem
 		{
+			mass=75;
 			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
 		};
 	};
 	class 89th_M52D_SCT: VES_M52D_Scout
@@ -761,7 +775,21 @@ class cfgWeapons
 		};
 		class ItemInfo: VestItem
 		{
+			mass=75;
 			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
 		};
 	};
 	class 89th_M52D_SNPR: VES_M52D_Sniper
@@ -780,7 +808,21 @@ class cfgWeapons
 		};
 		class ItemInfo: VestItem
 		{
+			mass=75;
 			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
 		};
 	};
 	class 89th_M52D_DEMO: VES_M52D_Demolitions
@@ -799,7 +841,21 @@ class cfgWeapons
 		};
 		class ItemInfo: VestItem
 		{
+			mass=75;
 			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
 		};
 	};
 	class 89th_M52D_Marksman: VES_M52D_Marksman
@@ -818,7 +874,21 @@ class cfgWeapons
 		};
 		class ItemInfo: VestItem
 		{
+			mass=75;
 			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+				class Arms: Abdomen {hitpointName="HitArms";};
+				class Body: Abdomen {hitpointName="HitBody";};
+				class Chest: Abdomen {hitpointName="HitChest";};
+				class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+				class Hands: Abdomen {hitpointName="HitHands";};
+				class Legs: Abdomen {hitpointName="HitLegs";};
+				class Neck: Abdomen {hitpointName="HitNeck";};
+			};
 		};
 	};
 };
