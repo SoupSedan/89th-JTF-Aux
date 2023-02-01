@@ -740,6 +740,10 @@ class cfgWeapons
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
 		};
+		class ItemInfo: VestItem
+		{
+			containerClass="Supply250";
+		};
 	};
 	class 89th_M52D_SCT: VES_M52D_Scout
 	{
@@ -754,6 +758,10 @@ class cfgWeapons
 			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			containerClass="Supply250";
 		};
 	};
 	class 89th_M52D_SNPR: VES_M52D_Sniper
@@ -770,6 +778,10 @@ class cfgWeapons
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
 		};
+		class ItemInfo: VestItem
+		{
+			containerClass="Supply250";
+		};
 	};
 	class 89th_M52D_DEMO: VES_M52D_Demolitions
 	{
@@ -785,6 +797,10 @@ class cfgWeapons
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
 		};
+		class ItemInfo: VestItem
+		{
+			containerClass="Supply250";
+		};
 	};
 	class 89th_M52D_Marksman: VES_M52D_Marksman
 	{
@@ -799,6 +815,10 @@ class cfgWeapons
 			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			containerClass="Supply250";
 		};
 	};
 };
