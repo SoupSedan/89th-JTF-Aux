@@ -25,7 +25,7 @@ class cfgWeapons
 	class HeadgearItem: InventoryItem_Base_F
 	{
 		allowedSlots[]={901,605};
-		type=605
+		type=605;
 		hiddenSelections[]={};
 		hitpointName="HitHead";
 	};
