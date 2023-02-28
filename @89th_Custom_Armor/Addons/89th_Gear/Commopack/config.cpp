@@ -75,7 +75,7 @@ class cfgVehicles
 		displayName="[89th] Invisible Rucksack";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
 		model="\89th_Redux_Files\backpacks\89_Invis_pack.p3d";
-		maximumLoad=400;
+		maximumLoad=125;
 		allowedSlots[]={901};
 		mass=50;
 		hiddenSelections[]=
