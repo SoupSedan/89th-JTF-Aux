@@ -228,27 +228,27 @@ class XtdGearInfos
 	{
 		class 89th_M52A_Sanchez_ARD
 		{
-			model="89th_M52A_Sanchez";
+			model="89th_Sanchez_M52A";
 			camo="ARD";
 		};
 		class 89th_M52A_Sanchez_DES
 		{
-			model="89th_M52A_Sanchez";
+			model="89th_Sanchez_M52A";
 			camo="DES";
 		};
 		class 89th_M52A_Sanchez_SNW
 		{
-			model="89th_M52A_Sanchez";
+			model="89th_Sanchez_M52A";
 			camo="SNW";
 		};
 		class 89th_M52A_Sanchez_URB
 		{
-			model="89th_M52A_Sanchez";
+			model="89th_Sanchez_M52A";
 			camo="URB";
 		};
 		class 89th_M52A_Sanchez_WDL
 		{
-			model="89th_M52A_Sanchez";
+			model="89th_Sanchez_M52A";
 			camo="WDL";
 		};
 	};
