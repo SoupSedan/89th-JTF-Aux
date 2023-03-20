@@ -7,6 +7,7 @@ class cfgPatches
 		requiredAddons[]=
 		{
 			"V_FZ_Armor",
+			"OPTRE_Core"
 		};
 		units[] = {};
 		weapons[]= {};
@@ -14,8 +15,8 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_CH252D;
-	class VES_CH252D_dp;
+	class OPTRE_UNSC_CH252D_Helmet;
+	class OPTRE_UNSC_CH252D_Helmet_dp;
 	class VES_CH252_MAR_Light;
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
@@ -148,7 +149,7 @@ class cfgWeapons
 		};
 	};
 	//ODST Helmet
-	class 89th_CH252D: VES_CH252D
+	class 89th_CH252D: OPTRE_UNSC_CH252D_Helmet
 	{
 		dlc="89thJTF";
 		scope=0;
@@ -169,7 +170,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_CH252D_dp: VES_CH252D_dp
+	class 89th_CH252D_dp: OPTRE_UNSC_CH252D_Helmet_dp
 	{
 		dlc="89thJTF";
 		author="Tas, Geek, and Vespade";
