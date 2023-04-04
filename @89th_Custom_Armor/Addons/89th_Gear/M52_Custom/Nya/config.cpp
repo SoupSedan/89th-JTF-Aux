@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_M52A_Custom
+	class 89th_M52A_Nya
 	{
 		author="89th Mod Team";
 		addonRootClass="89th_M52_patches";
@@ -9,14 +9,13 @@ class cfgPatches
 		{
 			"89th_M52_patches"
 		};
-		units[] = {};
 		weapons[]=
 		{
-			"89th_M52A_Legate_ARD",
-			"89th_M52A_Legate_DES",
-			"89th_M52A_Legate_SNW",
-			"89th_M52A_Legate_URB",
-			"89th_M52A_Legate_WDL"
+			"89th_M52A_Nya_ARD",
+			"89th_M52A_Nya_DES",
+			"89th_M52A_Nya_SNW",
+			"89th_M52A_Nya_URB",
+			"89th_M52A_Nya_WDL"
 		};
 	};
 };
@@ -25,18 +24,18 @@ class cfgWeapons
 	class 89th_M52A_Rifleman;
 	class ItemInfo;
 	class VestItem;
-	class 89th_M52A_Legate_ARD: 89th_M52A_Rifleman
+	class 89th_M52A_Nya_ARD: 89th_M52A_Rifleman
 	{
 		dlc="89thJTF";
-		author="Legate, Vespade";
-		displayName="[89th] M52A (Legate)(ARD)";
+		author="Nya, Soup, Vespade";
+		displayName="[89th] M52A (Nya)(ARD)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\ARD\89th_SoftVest_ARD.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_ARD.paa",
-			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52A_Nya_ARD.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52_Underlay_Nya_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+			"89th_Gear\M52_Custom\Nya\89th_M52D_Nya_ARD.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -77,32 +76,32 @@ class cfgWeapons
 			\\	"AS_BaseLeft",
 			\\	"AS_BaseRight",
 				"AS_LargeLeft",
-			\\	"AS_LargeRight",
+				"AS_LargeRight",
 			\\	"AS_MediumLeft",
 				"AS_MediumRight",
 				"AS_ODSTCQBLeft",
 				"AS_ODSTCQBRight",
 				"AS_ODSTLeft",
-				"AS_ODSTRight",
+			\\	"AS_ODSTRight",
 				"AS_ODSTSniperLeft",
 				"AS_ODSTSniperRight",
 				"AS_SmallLeft",
 				"AS_SmallRight",
-				"AP_Canteen",
+			\\	"AP_Canteen",
 				"AP_GL",
 				"AP_Knife",
-				"AP_MGThigh",
-				"AP_AR",
+			\\	"AP_MGThigh",
+			\\	"AP_AR",
 				"AP_BR",
-				"AP_Pack",
+			\\	"AP_Pack",
 				"AP_Pistol",
 				"AP_Rounds",
 				"AP_SG",
-				"AP_SMG",
+			\\	"AP_SMG",
 				"AP_Sniper",
 				"AP_Thigh",
-			\\	"AP_Frag",
-				"AP_Smoke",
+				"AP_Frag",
+			\\	"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
 				"APO_Knife",
@@ -112,60 +111,60 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_M52A_Legate_DES: 89th_M52A_Legate_ARD
+	class 89th_M52A_Nya_DES: 89th_M52A_Nya_ARD
 	{
 		dlc="89thJTF";
-		author="Legate, Vespade";
-		displayName="[89th] M52A (Legate)(DES)";
+		author="Nya, Soup, Vespade";
+		displayName="[89th] M52A (Nya) (DES)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_DES.paa",
-			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52A_Nya_DES.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52_Underlay_Nya_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
+			"89th_Gear\M52_Custom\Nya\89th_M52D_Nya_DES.paa"
 		};
 	};
-	class 89th_M52A_Legate_SNW: 89th_M52A_Legate_ARD
+	class 89th_M52A_Nya_SNW: 89th_M52A_Nya_ARD
 	{
 		dlc="89thJTF";
-		author="Legate, Vespade";
-		displayName="[89th] M52A (Legate)(SNW)";
+		author="Nya, Soup, Vespade";
+		displayName="[89th] M52A (Nya) (SNW)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\SNW\89th_SoftVest_SNW.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_SNW.paa",
-			"89th_Gear\M52_Basic\SNW\89th_M52_Underlay_SNW.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52A_Nya_SNW.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52_Underlay_Nya_SNW.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\SNW\89th_M52D_SNW.paa"
+			"89th_Gear\M52_Custom\Nya\89th_M52D_Nya_SNW.paa"
 		};
 	};
-	class 89th_M52A_Legate_URB: 89th_M52A_Legate_ARD
+	class 89th_M52A_Nya_URB: 89th_M52A_Nya_ARD
 	{
 		dlc="89thJTF";
-		author="Legate, Vespade";
-		displayName="[89th] M52A (Legate)(URB)";
+		author="Nya, Soup, Vespade";
+		displayName="[89th] M52A (Nya) (URB)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\URB\89th_SoftVest_URB.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_URB.paa",
-			"89th_Gear\M52_Basic\URB\89th_M52_Underlay_URB.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52A_Nya_URB.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52_Underlay_Nya_URB.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\URB\89th_M52D_URB.paa"
+			"89th_Gear\M52_Custom\Nya\89th_M52D_Nya_URB.paa"
 		};
 	};
-	class 89th_M52A_Legate_WDL: 89th_M52A_Legate_ARD
+	class 89th_M52A_Nya_WDL: 89th_M52A_Nya_ARD
 	{
 		dlc="89thJTF";
-		author="Legate, Vespade";
-		displayName="[89th] M52A (Legate)(WDL)";
+		author="Nya, Soup, Vespade";
+		displayName="[89th] M52A (Nya) (WDL)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\WDL\89th_SoftVest_WDL.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_WDL.paa",
-			"89th_Gear\M52_Basic\WDL\89th_M52_Underlay_WDL.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52A_Nya_WDL.paa",
+			"89th_Gear\M52_Custom\Nya\89th_M52_Underlay_Nya_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Basic\WDL\89th_M52D_WDL.paa"
+			"89th_Gear\M52_Custom\Nya\89th_M52D_Nya_WDL.paa"
 		};
 	};
 };
@@ -173,9 +172,9 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class 89th_Legate_M52A
+		class 89th_Nya_M52A
 		{
-			label="[89th] Legate M52A";
+			label="[89th] Nya M52A";
 			author="89th Mod Team";
 			options[]=
 			{
@@ -226,29 +225,29 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		class 89th_M52A_Legate_ARD
+		class 89th_M52A_Nya_ARD
 		{
-			model="89th_Legate_M52A";
+			model="89th_Nya_M52A";
 			camo="ARD";
 		};
-		class 89th_M52A_Legate_DES
+		class 89th_M52A_Nya_DES
 		{
-			model="89th_Legate_M52A";
+			model="89th_Nya_M52A";
 			camo="DES";
 		};
-		class 89th_M52A_Legate_SNW
+		class 89th_M52A_Nya_SNW
 		{
-			model="89th_Legate_M52A";
+			model="89th_Nya_M52A";
 			camo="SNW";
 		};
-		class 89th_M52A_Legate_URB
+		class 89th_M52A_Nya_URB
 		{
-			model="89th_Legate_M52A";
+			model="89th_Nya_M52A";
 			camo="URB";
 		};
-		class 89th_M52A_Legate_WDL
+		class 89th_M52A_Nya_WDL
 		{
-			model="89th_Legate_M52A";
+			model="89th_Nya_M52A";
 			camo="WDL";
 		};
 	};
