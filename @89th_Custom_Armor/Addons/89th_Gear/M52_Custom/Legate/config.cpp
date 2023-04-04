@@ -36,7 +36,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_ARD.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52D_Legate_ARD.paa"
+			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -77,20 +77,20 @@ class cfgWeapons
 			\\	"AS_BaseLeft",
 			\\	"AS_BaseRight",
 				"AS_LargeLeft",
-				"AS_LargeRight",
+			\\	"AS_LargeRight",
 			\\	"AS_MediumLeft",
 				"AS_MediumRight",
 				"AS_ODSTCQBLeft",
 				"AS_ODSTCQBRight",
 				"AS_ODSTLeft",
-			\\	"AS_ODSTRight",
+				"AS_ODSTRight",
 				"AS_ODSTSniperLeft",
 				"AS_ODSTSniperRight",
 				"AS_SmallLeft",
 				"AS_SmallRight",
 				"AP_Canteen",
 				"AP_GL",
-			\\	"AP_Knife",
+				"AP_Knife",
 				"AP_MGThigh",
 				"AP_AR",
 				"AP_BR",
@@ -101,7 +101,7 @@ class cfgWeapons
 				"AP_SMG",
 				"AP_Sniper",
 				"AP_Thigh",
-				"AP_Frag",
+			\\	"AP_Frag",
 				"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
@@ -123,7 +123,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_DES.paa",
 			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52D_Legate_DES.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 	};
 	class 89th_M52A_Legate_SNW: 89th_M52A_Legate_ARD
@@ -137,7 +137,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_SNW.paa",
 			"89th_Gear\M52_Basic\SNW\89th_M52_Underlay_SNW.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52D_Legate_SNW.paa"
+			"89th_Gear\M52_Basic\SNW\89th_M52D_SNW.paa"
 		};
 	};
 	class 89th_M52A_Legate_URB: 89th_M52A_Legate_ARD
@@ -151,7 +151,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_URB.paa",
 			"89th_Gear\M52_Basic\URB\89th_M52_Underlay_URB.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52D_Legate_URB.paa"
+			"89th_Gear\M52_Basic\URB\89th_M52D_URB.paa"
 		};
 	};
 	class 89th_M52A_Legate_WDL: 89th_M52A_Legate_ARD
@@ -165,7 +165,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Legate\89th_M52A_Legate_WDL.paa",
 			"89th_Gear\M52_Basic\WDL\89th_M52_Underlay_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Legate\89th_M52D_Legate_WDL.paa"
+			"89th_Gear\M52_Basic\WDL\89th_M52D_WDL.paa"
 		};
 	};
 };
