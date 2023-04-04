@@ -707,6 +707,120 @@ class cfgWeapons
 			};
 		};
 	};
+	class 89th_M52A_RTO: VES_M52A_MAR_Rifleman_C
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips, Rojas, Vespade";
+		displayName="M52A (RTO)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\M52_Basic\ARD\89th_SoftVest_ARD.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52A_BLANK_ARD.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_RTO_ARD.paa",
+			"optre_unsc_units\army\data\ghillie_desert_co.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			mass=75;
+			containerClass="Supply250";
+			uniformModel="\OPTRE_UNSC_Units\Army\armor";
+			vestType="Rebreather";
+			class HitpointsProtectionInfo
+			{
+				class Abdomen
+				{
+					armor=35;
+					hitpointName="HitAbdomen";
+					passThrough=0.1;
+				};
+				class Arms: Abdomen
+				{
+					hitpointName="HitArms";
+				};
+				class Body: Abdomen
+				{
+					hitpointName="HitBody";
+				};
+				class Chest: Abdomen
+				{
+					hitpointName="HitChest";
+				};
+				class Diaphragm: Abdomen
+				{
+					hitpointName="HitDiaphragm";
+				};
+				class Hands: Abdomen
+				{
+					hitpointName="HitHands";
+				};
+				class Legs: Abdomen
+				{
+					hitpointName="HitLegs";
+				};
+				class Neck: Abdomen
+				{
+					hitpointName="HitNeck";
+				};
+			};
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_Ghillie",
+				"\\	""A_ChestArmor",
+				"\\	""A_KneesLeft",
+				"A_KneesRight",
+				"\\	""A_KneesMarLeft",
+				"\\	""A_KneesMarRight",
+				"A_ODST",
+				"\\	""A_ShinArmorLeft",
+				"\\	""A_ShinArmorRight",
+				"A_TacPad",
+				"\\	""A_ThighArmorLeft",
+				"\\	""A_ThighArmorRight",
+				"\\	""AS_BaseLeft",
+				"\\	""AS_BaseRight",
+				"\\	""AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+				"\\	""AS_MediumRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTLeft",
+				"AS_ODSTRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_Canteen",
+				"AP_GL",
+				"\\	""AP_Knife",
+				"AP_MGThigh",
+				"AP_AR",
+				"AP_BR",
+				"AP_Pack",
+				"AP_Pistol",
+				"\\ ""AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Thigh",
+				"\\	""AP_Frag",
+				"\\	""AP_Smoke",
+				"\\ ""APO_AR",
+				"APO_BR",
+				"APO_Knife",
+				"APO_SMG",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+	};
 	class 89th_M52A_M: VES_M52A_MAR_Corpsman_A
 	{
 		dlc="89thJTF";
@@ -841,6 +955,7 @@ class cfgWeapons
 			};
 		};
 	};
+	
 	class 89th_M52D_SCT: VES_M52D_Scout
 	{
 		dlc="89thJTF";
@@ -1325,7 +1440,8 @@ class XtdGearModels
 					"assault",
 					"security",
 					"cls",
-					"corp"
+					"corp",
+					"rto"
 				};
 				class rifle
 				{
@@ -1356,6 +1472,11 @@ class XtdGearModels
 				{
 					label="Corpsman";
 					image="89th_Core\Emblems\Corpsman.paa";
+				};
+				class rto
+				{
+					label="RTO";
+					image="89th_Core\Emblems\RTP.paa";
 				};
 			};
 			class camo
@@ -1526,6 +1647,12 @@ class XtdGearInfos
 			special="corp";
 			camo="ARD";
 		};
+		class 89th_M52A_RTO_ARD
+		{
+			model="89th_M52A_Vests";
+			special="rto";
+			camo="ARD";
+		};
 		class 89th_M52A_Rifleman_DES
 		{
 			model="89th_M52A_Vests";
@@ -1566,6 +1693,12 @@ class XtdGearInfos
 		{
 			model="89th_M52A_Vests";
 			special="corp";
+			camo="DES";
+		};
+		class 89th_M52A_RTO_DES
+		{
+			model="89th_M52A_Vests";
+			special="rto";
 			camo="DES";
 		};
 		class 89th_M52A_Rifleman_SNW
@@ -1610,6 +1743,12 @@ class XtdGearInfos
 			special="corp";
 			camo="SNW";
 		};
+		class 89th_M52A_RTO_SNW
+		{
+			model="89th_M52A_Vests";
+			special="rto";
+			camo="SNW";
+		};
 		class 89th_M52A_Rifleman_URB
 		{
 			model="89th_M52A_Vests";
@@ -1652,6 +1791,12 @@ class XtdGearInfos
 			special="corp";
 			camo="URB";
 		};
+		class 89th_M52A_RTO_URB
+		{
+			model="89th_M52A_Vests";
+			special="rto";
+			camo="URB";
+		};
 		class 89th_M52A_Rifleman_WDL
 		{
 			model="89th_M52A_Vests";
@@ -1692,6 +1837,12 @@ class XtdGearInfos
 		{
 			model="89th_M52A_Vests";
 			special="corp";
+			camo="WDL";
+		};
+		class 89th_M52A_RTO_WDL
+		{
+			model="89th_M52A_Vests";
+			special="rto";
 			camo="WDL";
 		};
 		class 89th_M52D_R_ARD

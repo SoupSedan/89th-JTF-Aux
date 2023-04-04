@@ -14,6 +14,7 @@ class cfgPatches
 		{
 			"89th_CH252A_Light_URB",
 			"89th_CH252A_M_Light_URB",
+			"89th_CH252A_RTO_Light_URB",
 			"89th_CH252A_SLV_URB",
 			"89th_CH252A_SLV_URB_dp",
 			"89th_CH252A_GLD_URB",
@@ -30,6 +31,14 @@ class cfgPatches
 			"89th_CH252A_M_BLK_URB_dp",
 			"89th_CH252A_M_BLU_URB",
 			"89th_CH252A_M_BLU_URB_dp",
+			"89th_CH252A_RTO_SLV_URB",
+			"89th_CH252A_RTO_SLV_URB_dp",
+			"89th_CH252A_RTO_GLD_URB",
+			"89th_CH252A_RTO_GLD_URB_dp",
+			"89th_CH252A_RTO_BLK_URB",
+			"89th_CH252A_RTO_BLK_URB_dp",
+			"89th_CH252A_RTO_BLU_URB",
+			"89th_CH252A_RTO_BLU_URB_dp",
 			"89th_CH252D_SLV_URB",
 			"89th_CH252D_SLV_URB_dp",
 			"89th_CH252D_GLD_URB",
@@ -45,10 +54,13 @@ class cfgWeapons
 {
 	class 89th_CH252A_Light;
 	class 89th_CH252A_M_Light;
+	class 89th_CH252A_RTO_Light;
 	class 89th_CH252A;
 	class 89th_CH252A_dp;
 	class 89th_CH252A_M;
 	class 89th_CH252A_M_dp;
+	class 89th_CH252A_RTO;
+	class 89th_CH252A_RTO_dp;
 	class 89th_CH252D;
 	class 89th_CH252D_dp;
 	class ItemInfo;
@@ -91,6 +103,27 @@ class cfgWeapons
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Gear\CH252_Basic\URB\89th_CH252A_M_URB.paa",
+				""
+			};
+		};
+	};
+	class 89th_CH252A_RTO_Light_URB: 89th_CH252A_RTO_Light
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips, Rojas, Vespade";
+		displayName="[89th] CH252A Light (RTO)";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
 				""
 			};
 		};
@@ -158,7 +191,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_CH252A_GLD_AR_dp: 89th_CH252A_dp
+	class 89th_CH252A_GLD_URB_dp: 89th_CH252A_dp
 	{
 		dlc="89thJTF";
 		author="Tas, Jake, and Vespade";
@@ -424,6 +457,174 @@ class cfgWeapons
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Gear\CH252_Basic\URB\89th_CH252A_M_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_SLV_URB: 89th_CH252A_M
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Silver)(Medic)(URB)";
+		scope=2;
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			model="\optre_unsc_units\army\helmet";
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_SLV_URB_dp: 89th_CH252A_RTO_dp
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Silver)(Medic)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_GLD_URB: 89th_CH252A_M
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Gold)(Medic)(URB)";
+		scope=2;
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			model="\optre_unsc_units\army\helmet";
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_GLD_URB_dp: 89th_CH252A_RTO_dp
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Gold)(Medic)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_BLK_URB: 89th_CH252A_M
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Black)(Medic)(URB)";
+		scope=2;
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"89th_Gear\Visors\89th_Marine_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			model="\optre_unsc_units\army\helmet";
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"89th_Gear\Visors\89th_Marine_V_CO.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_BLK_URB_dp: 89th_CH252A_RTO_dp
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Black)(Medic)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_BLU_URB: 89th_CH252A_M
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Blue)(Medic)(URB)";
+		scope=2;
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			model="\optre_unsc_units\army\helmet";
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			};
+		};
+	};
+	class 89th_CH252A_RTO_BLU_URB_dp: 89th_CH252A_RTO_dp
+	{
+		dlc="89thJTF";
+		author="Tas, Jake, and Vespade";
+		displayName="[89th] CH252A (Blue)(Medic)(URB)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"89th_Gear\CH252_Basic\URB\89th_CH252A_RTO_URB.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};

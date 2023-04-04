@@ -19,6 +19,7 @@ class CfgPatches
 			"89th_M52A_Security_ARD",
 			"89th_M52A_CLS_ARD",
 			"89th_M52A_M_ARD",
+			"89th_M52A_RTO_ARD",
 			"89th_M52D_R_ARD",
 			"89th_M52D_SCT_ARD",
 			"89th_M52D_SNPR_ARD",
@@ -36,6 +37,7 @@ class cfgWeapons
 	class 89th_M52A_Security;
 	class 89th_M52A_CLS;
 	class 89th_M52A_M;
+	class 89th_M52A_RTO;
 	class 89th_M52D_R;
 	class 89th_M52D_SCT;
 	class 89th_M52D_SNPR;
@@ -142,6 +144,21 @@ class cfgWeapons
 			"89th_Gear\M52_Basic\ARD\89th_SoftVest_ARD.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52A_M_ARD.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
+			"optre_unsc_units\army\data\ghillie_desert_co.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
+		};
+	};
+	class 89th_M52A_RTO_ARD: 89th_M52A_RTO
+	{
+		dlc="89thJTF";
+		scope=2;
+		author="Flips, Rojas, Vespade";
+		displayName="[89th] M52A (RTO)(ARD)";
+		hiddenSelectionsTextures[]=
+		{
+			"89th_Gear\M52_Basic\ARD\89th_SoftVest_ARD.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52_BLANK_ARD.paa",
+			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_RTO_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_desert_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
 		};
