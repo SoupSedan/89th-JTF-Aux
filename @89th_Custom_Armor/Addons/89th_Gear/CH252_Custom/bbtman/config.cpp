@@ -1,6 +1,6 @@
 class cfgPatches
 {
-	class 89th_CH252A_Custom
+	class 89th_CH252D_Custom
 	{
 		author="89th Mod Team";
 		addonRootClass="89th_CH252_patches";
@@ -12,228 +12,228 @@ class cfgPatches
 		units[] = {};
 		weapons[]=
 		{
-			"89th_CH252A_BBT_ARD",
-			"89th_CH252A_BBT_ARD_dp",
-			"89th_CH252A_BBT_DES",
-			"89th_CH252A_BBT_DES_dp",
-			"89th_CH252A_BBT_SNW",
-			"89th_CH252A_BBT_SNW_dp",
-			"89th_CH252A_BBT_URB",
-			"89th_CH252A_BBT_URB_dp",
-			"89th_CH252A_BBT_WDL",
-			"89th_CH252A_BBT_WDL_dp"
+			"89th_CH252D_BBt_ARD",
+			"89th_CH252D_BBt_ARD_dp",
+			"89th_CH252D_BBt_DES",
+			"89th_CH252D_BBt_DES_dp",
+			"89th_CH252D_BBt_SNW",
+			"89th_CH252D_BBt_SNW_dp",
+			"89th_CH252D_BBt_URB",
+			"89th_CH252D_BBt_URB_dp",
+			"89th_CH252D_BBt_WDL",
+			"89th_CH252D_BBt_WDL_dp"
 		};
 	};
 };
 class cfgWeapons
 {
-	class 89th_CH252A;
-	class 89th_CH252A_dp;
+	class 89th_CH252D;
+	class 89th_CH252D_dp;
 	class ItemInfo;
-	class 89th_CH252A_BBT_WDL: 89th_CH252A
+	class 89th_CH252D_BBt_WDL: 89th_CH252D
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252A (BBTman)(WDL)";
+        author="Tas, Geek, Vespade";
+        displayName="[89th] CH252D (BBt)(WDL)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_wdl.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_wdl.paa",
+            "89th_Gear\Visors\89th_Goliath_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_wdl.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_wdl.paa",
+                "89th_Gear\Visors\89th_Goliath_V_CO.paa"
             };
         };
     };
-    class 89th_CH252A_BBT_WDL_dp: 89th_CH252A_dp
+    class 89th_CH252D_BBt_WDL_dp: 89th_CH252D_dp
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252A (BBTman)(WDL)[OFF]";
+        author="Tas, Geek, Vespade";
+        displayName="CH252D (BBt)(WDL)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_WDL.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_WDL.paa",
+            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_WDL.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_WDL.paa",
+                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
             };
         };
     };
-	class 89th_CH252A_BBT_URB: 89th_CH252A
+	class 89th_CH252D_BBt_URB: 89th_CH252D
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252A (BBTman)(URB)";
+        author="Tas, Geek, Vespade";
+        displayName="[89th] CH252D (BBt)(URB)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_URB.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_URB.paa",
+            "89th_Gear\Visors\89th_Goliath_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_URB.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_URB.paa",
+                "89th_Gear\Visors\89th_Goliath_V_CO.paa"
             };
         };
     };
-    class 89th_CH252A_BBT_URB_dp: 89th_CH252A_dp
+    class 89th_CH252D_BBt_URB_dp: 89th_CH252D_dp
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252A (BBTman)(URB)[OFF]";
+        author="Tas, Geek, Vespade";
+        displayName="CH252D (BBt)(URB)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_URB.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_URB.paa",
+            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_URB.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_URB.paa",
+                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
             };
         };
-    };class 89th_CH252A_BBT_DES: 89th_CH252A
+    };class 89th_CH252D_BBt_DES: 89th_CH252D
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252A (BBTman)(DES)";
+        author="Tas, Geek, Vespade";
+        displayName="[89th] CH252D (BBt)(DES)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_DES.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_DES.paa",
+            "89th_Gear\Visors\89th_Goliath_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_DES.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
-            };
-        };
-    };
-    class 89th_CH252A_BBT_DES_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Flips, Vespade";
-        displayName="CH252A (BBTman)(DES)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_DES.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_DES.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };class 89th_CH252A_BBT_ARD: 89th_CH252A
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252A (BBTman)(ARD)";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_ARD.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_ARD.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_DES.paa",
+                "89th_Gear\Visors\89th_Goliath_V_CO.paa"
             };
         };
     };
-    class 89th_CH252A_BBT_ARD_dp: 89th_CH252A_dp
+    class 89th_CH252D_BBt_DES_dp: 89th_CH252D_dp
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252A (BBTman)(ARD)[OFF]";
+        author="Tas, Geek, Vespade";
+        displayName="CH252D (BBt)(DES)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_ARD.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_DES.paa",
+            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_ARD.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_DES.paa",
+                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
             };
         };
-    };class 89th_CH252A_BBT_SNW: 89th_CH252A
+    };class 89th_CH252D_BBt_ARD: 89th_CH252D
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="[89th] CH252A (BBTman)(SNW)";
+        author="Tas, Geek, Vespade";
+        displayName="[89th] CH252D (BBt)(ARD)";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_SNW.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_ARD.paa",
+            "89th_Gear\Visors\89th_Goliath_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_SNW.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_ARD.paa",
+                "89th_Gear\Visors\89th_Goliath_V_CO.paa"
             };
         };
     };
-    class 89th_CH252A_BBT_SNW_dp: 89th_CH252A_dp
+    class 89th_CH252D_BBt_ARD_dp: 89th_CH252D_dp
     {
         dlc="89thCUArmor";
         scope=2;
-        author="Flips, Vespade";
-        displayName="CH252A (BBTman)(SNW)[OFF]";
+        author="Tas, Geek, Vespade";
+        displayName="CH252D (BBt)(ARD)[OFF]";
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_SNW.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_ARD.paa",
+            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\bbtman\89th_CH252A_BBT_SNW.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_ARD.paa",
+                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            };
+        };
+    };class 89th_CH252D_BBt_SNW: 89th_CH252D
+    {
+        dlc="89thCUArmor";
+        scope=2;
+        author="Tas, Geek, Vespade";
+        displayName="[89th] CH252D (BBt)(SNW)";
+        CTAB_Camera="true";
+        hiddenSelectionsTextures[]=
+        {
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_SNW.paa",
+            "89th_Gear\Visors\89th_Goliath_V_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_SNW.paa",
+                "89th_Gear\Visors\89th_Goliath_V_CO.paa"
+            };
+        };
+    };
+    class 89th_CH252D_BBt_SNW_dp: 89th_CH252D_dp
+    {
+        dlc="89thCUArmor";
+        scope=2;
+        author="Tas, Geek, Vespade";
+        displayName="CH252D (BBt)(SNW)[OFF]";
+        CTAB_Camera="true";
+        hiddenSelectionsTextures[]=
+        {
+            "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_SNW.paa",
+            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "89th_Gear\CH252_Custom\Bbtman\89th_CH252D_BBt_SNW.paa",
+                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
             };
         };
     };
@@ -242,9 +242,9 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class 89th_BBT_CH252A
+		class 89th_BBt_CH252D
 		{
-			label="[89th] BBTman CH252A";
+			label="[89th] BBt CH252D";
 			author="89th Mod Team";
 			options[]=
 			{
@@ -315,60 +315,60 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		class 89th_CH252A_BBT_ARD
+		class 89th_CH252D_BBt_ARD
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="ARD";
 			visor="on";
 		};
-		class 89th_CH252A_BBT_ARD_dp
+		class 89th_CH252D_BBt_ARD_dp
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="ARD";
 			visor="off";
 		};
-		class 89th_CH252A_BBT_DES
+		class 89th_CH252D_BBt_DES
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="DES";
 			visor="on";
 		};
-		class 89th_CH252A_BBT_DES_dp
+		class 89th_CH252D_BBt_DES_dp
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="DES";
 			visor="off";
-		};class 89th_CH252A_BBT_SNW
+		};class 89th_CH252D_BBt_SNW
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="SNW";
 			visor="on";
 		};
-		class 89th_CH252A_BBT_SNW_dp
+		class 89th_CH252D_BBt_SNW_dp
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="SNW";
 			visor="off";
-		};class 89th_CH252A_BBT_URB
+		};class 89th_CH252D_BBt_URB
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="URB";
 			visor="on";
 		};
-		class 89th_CH252A_BBT_URB_dp
+		class 89th_CH252D_BBt_URB_dp
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="URB";
 			visor="off";
-		};class 89th_CH252A_BBT_WDL
+		};class 89th_CH252D_BBt_WDL
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="WDL";
 			visor="on";
 		};
-		class 89th_CH252A_BBT_WDL_dp
+		class 89th_CH252D_BBt_WDL_dp
 		{
-			model="89th_BBT_CH252A";
+			model="89th_BBt_CH252D";
 			camo="WDL";
 			visor="off";
 		};
