@@ -219,6 +219,14 @@ class cfgWeapons
 		author="Tas, Geek, and Vespade";
 		displayName="[89th] CH252D (Silver)";
 		CTAB_Camera="true";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa",
@@ -226,6 +234,14 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+			\\	"camo4",
+				"H_Ghillie"
+			};
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa",
@@ -241,15 +257,13 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+			"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa",
-				"optre_unsc_units\army\data\helmet_visor_ca.paa"
+				"89th_Gear\CH252_Basic\ARD\89th_CH252D_ARD.paa"
 			};
 		};
 	};

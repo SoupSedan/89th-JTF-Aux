@@ -659,15 +659,13 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa"
 			};
 		};
 	};
@@ -701,14 +699,12 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 			};
 		};
 	};
@@ -742,14 +738,12 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa"
 			};
 		};
 	};
@@ -782,15 +776,13 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+			"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+				"89th_Gear\CH252_Basic\URB\89th_CH252D_URB.paa"
 			};
 		};
 	};
