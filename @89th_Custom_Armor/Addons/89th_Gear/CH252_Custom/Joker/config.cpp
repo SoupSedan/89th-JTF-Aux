@@ -8,7 +8,7 @@ class cfgPatches
 		requiredAddons[]=
 		{
 			"89th_CH252_patches",
-			"V_FZ_Armor"
+			"OPTRE_Core"
 		};
 		units[] = {};
 		weapons[]=
@@ -20,10 +20,10 @@ class cfgPatches
 };
 class cfgWeapons
 {
-	class VES_S1ONIR;
-	class VES_S1ONIR_dp;
+	class OPTRE_UNSC_Recon_Helmet;
+	class OPTRE_UNSC_Recon_Helmet_dp;
 	class ItemInfo;
-	class 89th_S1ONIR_Joker: VES_S1ONIR
+	class 89th_S1ONIR_Joker: OPTRE_UNSC_Recon_Helmet
 	{
 		dlc="89thJTF";
 		author="Flips, Vespade";
@@ -43,7 +43,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class 89th_S1ONIR_Joker_dp: VES_S1ONIR_dp
+	class 89th_S1ONIR_Joker_dp: OPTRE_UNSC_Recon_Helmet_dp
 	{
 		dlc="89thJTF";
 		author="Flips, Vespade";
