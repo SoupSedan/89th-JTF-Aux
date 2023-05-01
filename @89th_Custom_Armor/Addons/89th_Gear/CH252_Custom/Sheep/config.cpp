@@ -61,14 +61,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_WDL.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            "89th_Gear\visors\goliath_hair.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_WDL.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+                "89th_Gear\visors\goliath_hair.paa"
             };
         };
     };
@@ -103,14 +103,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_URB.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            "89th_Gear\visors\goliath_hair.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_URB.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+                "89th_Gear\visors\goliath_hair.paa"
             };
         };
     };class 89th_CH252D_Sheep_DES: 89th_CH252D
@@ -144,14 +144,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_DES.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            "89th_Gear\visors\goliath_hair.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_DES.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+                "89th_Gear\visors\goliath_hair.paa"
             };
         };
     };class 89th_CH252D_Sheep_ARD: 89th_CH252D
@@ -185,14 +185,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_ARD.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            "89th_Gear\visors\goliath_hair.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_ARD.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+                "89th_Gear\visors\goliath_hair.paa"
             };
         };
     };class 89th_CH252D_Sheep_SNW: 89th_CH252D
@@ -226,14 +226,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_SNW.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+            "89th_Gear\visors\goliath_hair.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_SNW.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"
+                "89th_Gear\visors\goliath_hair.paa"
             };
         };
     };
