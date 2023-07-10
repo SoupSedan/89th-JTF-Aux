@@ -7,7 +7,8 @@ class cfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"89th_CH252_patches"
+			"89th_CH252_patches",
+			"OPTRE_FC_Units_Marines"
 		};
 		units[] = {};
 		weapons[]=
