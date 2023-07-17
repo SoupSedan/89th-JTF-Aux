@@ -97,7 +97,7 @@ class cfgWeapons
 				"AP_Pack",
 				"AP_Pistol",
 				"AP_Rounds",
-			\\	"AP_SG",
+				"AP_SG",
 				"AP_SMG",
 				"AP_Sniper",
 				"AP_Thigh",
