@@ -12,8 +12,11 @@ class cfgPatches
 		units[] = {};
 		weapons[]=
 		{
-			"89th_M52A_Buck",
-
+			"89th_M52A_Buck_ARD",
+			"89th_M52A_Buck_DES",
+			"89th_M52A_Buck_SNW",
+			"89th_M52A_Buck_URB",
+			"89th_M52A_Buck_WDL"
 		};
 	};
 };
@@ -22,18 +25,18 @@ class cfgWeapons
 	class 89th_M52A_Rifleman;
 	class ItemInfo;
 	class VestItem;
-	class 89th_M52A_Buck: 89th_M52A_Rifleman
+	class 89th_M52A_Buck_ARD: 89th_M52A_Rifleman
 	{
 		dlc="89thJTF";
-		author="Soup, Vespade";
-		displayName="[89th] M52A (Buck)";
+		author="Buck, Soup, Vespade";
+		displayName="[89th] M52A (Buck)(ARD)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Gear\M52_Custom\Legion\89th_SoftVest_Legion.paa",
-			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck.paa",
-			"89th_Gear\M52_Custom\Legion\89th_M52_Underlay_Legion.paa",
+			"89th_Gear\M52_Custom\Buck\89th_SoftVest_Buck_ARD.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck_ARD.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52_Underlay_Buck_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck.paa"
+			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck_ARD.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -61,13 +64,13 @@ class cfgWeapons
 				"camo5",
 				"A_Ghillie",
 			\\	"A_ChestArmor",
-				"A_KneesLeft",
-				"A_KneesRight",
-				"A_KneesMarLeft",
-				"A_KneesMarRight",
+			\\	"A_KneesLeft",
+			\\	"A_KneesRight",
+			\\	"A_KneesMarLeft",
+			\\	"A_KneesMarRight",
 				"A_ODST",
-				"A_ShinArmorLeft",
-				"A_ShinArmorRight",
+			\\	"A_ShinArmorLeft",
+			\\	"A_ShinArmorRight",
 				"A_TacPad",
 			\\	"A_ThighArmorLeft",
 			\\	"A_ThighArmorRight",
@@ -92,21 +95,161 @@ class cfgWeapons
 				"AP_AR",
 				"AP_BR",
 				"AP_Pack",
-			\\	"AP_Pistol",
+				"AP_Pistol",
 				"AP_Rounds",
 				"AP_SG",
-			\\	"AP_SMG",
-				"AP_Sniper",
+				"AP_SMG",
+			\\	"AP_Sniper",
 				"AP_Thigh",
 				"AP_Frag",
-			\\	"AP_Smoke",
+				"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
 				"APO_Knife",
 				"APO_SMG",
-				"APO_Sniper",
+			\\	"APO_Sniper",
 				"CustomKit_Scorch"
 			};
+		};
+	};
+	class 89th_M52A_Buck_DES: 89th_M52A_Buck_ARD
+	{
+		dlc="89thJTF";
+		author="Buck, Vespade";
+		displayName="[89th] M52A (Buck)(DES)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Gear\M52_Custom\Buck\89th_SoftVest_Buck_DES.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck_DES.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52_Underlay_Buck_DES.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck_DES.paa"
+		};
+	};
+	class 89th_M52A_Buck_SNW: 89th_M52A_Buck_ARD
+	{
+		dlc="89thJTF";
+		author="Buck, Vespade";
+		displayName="[89th] M52A (Buck)(SNW)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Gear\M52_Custom\Buck\89th_SoftVest_Buck_SNW.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck_SNW.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52_Underlay_Buck_SNW.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck_SNW.paa"
+		};
+	};
+	class 89th_M52A_Buck_URB: 89th_M52A_Buck_ARD
+	{
+		dlc="89thJTF";
+		author="Buck, Vespade";
+		displayName="[89th] M52A (Buck)(URB)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Gear\M52_Custom\Buck\89th_SoftVest_Buck_URB.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck_URB.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52_Underlay_Buck_URB.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck_URB.paa"
+		};
+	};
+	class 89th_M52A_Buck_WDL: 89th_M52A_Buck_ARD
+	{
+		dlc="89thJTF";
+		author="Buck, Vespade";
+		displayName="[89th] M52A (Buck)(WDL)";
+		hiddenSelectionsTextures[]=
+		{	
+			"89th_Gear\M52_Custom\Buck\89th_SoftVest_Buck_WDL.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52A_Buck_WDL.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52_Underlay_Buck_WDL.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"89th_Gear\M52_Custom\Buck\89th_M52D_Buck_WDL.paa"
+		};
+	};
+};
+class XtdGearModels
+{
+	class CfgWeapons
+	{
+		class 89th_Buck_M52A
+		{
+			label="[89th] Buck M52A";
+			author="89th Mod Team";
+			options[]=
+			{
+				"camo"
+			};
+			class camo
+			{
+				label="Camo";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"ARD",
+					"DES",
+					"SNW",
+					"URB",
+					"WDL"
+				};
+				class ARD
+				{
+					label="Arid";
+					image="#(rgb,8,8,3)color(0.278,0.243,0.149,1)";
+				};
+				class DES
+				{
+					label="Desert";
+					image="#(rgb,8,8,3)color(0.431,0.369,0.302,1)";
+				};
+				class SNW
+				{
+					label="Snow";
+					image="#(rgb,8,8,3)color(0.882,0.894,0.902,1)";
+				};
+				class URB
+				{
+					label="Urban";
+					image="#(rgb,8,8,3)color(0.192,0.212,0.259,1)";
+				};
+				class WDL
+				{
+					label="Woodland";
+					image="#(rgb,8,8,3)color(0.118,0.137,0.020,1)";
+				};
+			};
+		};
+	};
+};
+class XtdGearInfos
+{
+	class CfgWeapons
+	{
+		class 89th_M52A_Buck_ARD
+		{
+			model="89th_Buck_M52A";
+			camo="ARD";
+		};
+		class 89th_M52A_Buck_DES
+		{
+			model="89th_Buck_M52A";
+			camo="DES";
+		};
+		class 89th_M52A_Buck_SNW
+		{
+			model="89th_Buck_M52A";
+			camo="SNW";
+		};
+		class 89th_M52A_Buck_URB
+		{
+			model="89th_Buck_M52A";
+			camo="URB";
+		};
+		class 89th_M52A_Buck_WDL
+		{
+			model="89th_Buck_M52A";
+			camo="WDL";
 		};
 	};
 };
