@@ -40,14 +40,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_wdl.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_wdl.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
     };
@@ -123,14 +123,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_DES.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_DES.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
             };
         };
     };
@@ -164,14 +164,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
             };
         };
     };
