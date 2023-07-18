@@ -36,7 +36,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Rojas\89th_M52A_Rojas_ARD.paa",
 			"89th_Gear\M52_Custom\Rojas\89th_M52_Underlay_Rojas_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Rojas\ARD\89th_M52D_Rojas_ARD.paa"
+			"89th_Gear\M52_Custom\Rojas\89th_M52D_Rojas_ARD.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -123,7 +123,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Rojas\89th_M52A_Rojas_DES.paa",
 			"89th_Gear\M52_Custom\Rojas\89th_M52_Underlay_Rojas_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Rojas\ARD\89th_M52D_Rojas_DES.paa"
+			"89th_Gear\M52_Custom\Rojas\89th_M52D_Rojas_DES.paa"
 		};
 	};
 	class 89th_M52A_Rojas_SNW: 89th_M52A_Rojas_ARD
@@ -137,7 +137,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Rojas\89th_M52A_Rojas_SNW.paa",
 			"89th_Gear\M52_Custom\Rojas\89th_M52_Underlay_Rojas_SNW.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Rojas\ARD\89th_M52D_Rojas_SNW.paa"
+			"89th_Gear\M52_Custom\Rojas\89th_M52D_Rojas_SNW.paa"
 		};
 	};
 	class 89th_M52A_Rojas_URB: 89th_M52A_Rojas_ARD
@@ -151,7 +151,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Rojas\89th_M52A_Rojas_URB.paa",
 			"89th_Gear\M52_Custom\Rojas\89th_M52_Underlay_Rojas_URB.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Rojas\ARD\89th_M52D_Rojas_URB.paa"
+			"89th_Gear\M52_Custom\Rojas\89th_M52D_Rojas_URB.paa"
 		};
 	};
 	class 89th_M52A_Rojas_WDL: 89th_M52A_Rojas_ARD
@@ -165,7 +165,7 @@ class cfgWeapons
 			"89th_Gear\M52_Custom\Rojas\89th_M52A_Rojas_WDL.paa",
 			"89th_Gear\M52_Custom\Rojas\89th_M52_Underlay_Rojas_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Gear\M52_Custom\Rojas\ARD\89th_M52D_Rojas_WDL.paa"
+			"89th_Gear\M52_Custom\Rojas\89th_M52D_Rojas_WDL.paa"
 		};
 	};
 };
