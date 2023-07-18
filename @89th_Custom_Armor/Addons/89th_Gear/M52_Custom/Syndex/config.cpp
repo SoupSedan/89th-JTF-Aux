@@ -33,7 +33,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\ARD\89th_SoftVest_ARD.paa",
-			"89th_Gear\M52_Custom\Syndex\89th_M52A_Syndex_ARD.paa",
+			"89th_Gear\M52_Custom\Syndex\89th_M52_Syndex_ARD.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52_Underlay_ARD.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\ARD\89th_M52D_ARD.paa"
@@ -120,7 +120,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
-			"89th_Gear\M52_Custom\Syndex\89th_M52A_Syndex_DES.paa",
+			"89th_Gear\M52_Custom\Syndex\89th_M52_Syndex_DES.paa",
 			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
@@ -134,7 +134,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\SNW\89th_SoftVest_SNW.paa",
-			"89th_Gear\M52_Custom\Syndex\89th_M52A_Syndex_SNW.paa",
+			"89th_Gear\M52_Custom\Syndex\89th_M52_Syndex_SNW.paa",
 			"89th_Gear\M52_Basic\SNW\89th_M52_Underlay_SNW.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\SNW\89th_M52D_SNW.paa"
@@ -148,7 +148,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\URB\89th_SoftVest_URB.paa",
-			"89th_Gear\M52_Custom\Syndex\89th_M52A_Syndex_URB.paa",
+			"89th_Gear\M52_Custom\Syndex\89th_M52_Syndex_URB.paa",
 			"89th_Gear\M52_Basic\URB\89th_M52_Underlay_URB.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\URB\89th_M52D_URB.paa"
@@ -162,7 +162,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Gear\M52_Basic\WDL\89th_SoftVest_WDL.paa",
-			"89th_Gear\M52_Custom\Syndex\89th_M52A_Syndex_WDL.paa",
+			"89th_Gear\M52_Custom\Syndex\89th_M52_Syndex_WDL.paa",
 			"89th_Gear\M52_Basic\WDL\89th_M52_Underlay_WDL.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"89th_Gear\M52_Basic\WDL\89th_M52D_WDL.paa"
