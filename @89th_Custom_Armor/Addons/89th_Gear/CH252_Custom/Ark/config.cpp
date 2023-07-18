@@ -39,14 +39,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_wdl.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_WDL.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_wdl.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_WDL.paa",
                 "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
@@ -60,14 +60,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_WDL.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_WDL.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_WDL.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_WDL.paa",
                 "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
@@ -81,14 +81,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_URB.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_URB.paa",
             "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_URB.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_URB.paa",
                 "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
@@ -102,14 +102,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_URB.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_URB.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_URB.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_URB.paa",
                 "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
@@ -122,14 +122,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_DES.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_DES.paa",
             "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_DES.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_DES.paa",
                 "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
             };
         };
@@ -143,7 +143,7 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_DES.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_DES.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
@@ -163,14 +163,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_ARD.paa",
             "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_ARD.paa",
                 "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
             };
         };
@@ -184,14 +184,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_ARD.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_ARD.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_ARD.paa",
                 "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
@@ -204,14 +204,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_SNW.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_SNW.paa",
             "89th_Gear\Visors\89th_Marine_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_SNW.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_SNW.paa",
                 "89th_Gear\Visors\89th_Marine_V_CO.paa"
             };
         };
@@ -225,14 +225,14 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_SNW.paa",
+            "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_SNW.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Ark\89th_CH252A_Ark_SNW.paa",
+                "89th_Gear\CH252_Custom\Ark\89th_CH252_ARK_SNW.paa",
                 "optre_unsc_units\army\data\helmet_visor_ca.paa"
             };
         };
