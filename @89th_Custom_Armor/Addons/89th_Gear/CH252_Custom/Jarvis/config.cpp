@@ -37,6 +37,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="[89th] CH252D (Jarvis)(WDL)";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_wdl.paa",
@@ -58,6 +66,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="CH252D (Jarvis)(WDL)[OFF]";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_WDL.paa",
@@ -79,6 +95,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="[89th] CH252D (Jarvis)(URB)";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_URB.paa",
@@ -100,6 +124,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="CH252D (Jarvis)(URB)[OFF]";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_URB.paa",
@@ -120,6 +152,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="[89th] CH252D (Jarvis)(DES)";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_DES.paa",
@@ -141,6 +181,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="CH252D (Jarvis)(DES)[OFF]";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_DES.paa",
@@ -161,6 +209,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="[89th] CH252D (Jarvis)(ARD)";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_ARD.paa",
@@ -182,6 +238,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="CH252D (Jarvis)(ARD)[OFF]";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_ARD.paa",
@@ -202,6 +266,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="[89th] CH252D (Jarvis)(SNW)";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_SNW.paa",
@@ -223,6 +295,14 @@ class cfgWeapons
         author="Tas, Geek, Vespade";
         displayName="CH252D (Jarvis)(SNW)[OFF]";
         CTAB_Camera="true";
+	hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+		\\	"camo4",
+			"H_Ghillie"
+		};
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Jarvis\89th_CH252D_Jarvis_SNW.paa",
