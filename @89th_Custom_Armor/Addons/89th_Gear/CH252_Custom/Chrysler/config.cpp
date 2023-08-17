@@ -13,24 +13,18 @@ class cfgPatches
 		weapons[]=
 		{
 			"89th_CH252A_Chrysler_ARD",
-			"89th_CH252A_Chrysler_ARD_dp",
 			"89th_CH252A_Chrysler_DES",
-			"89th_CH252A_Chrysler_DES_dp",
 			"89th_CH252A_Chrysler_SNW",
-			"89th_CH252A_Chrysler_SNW_dp",
 			"89th_CH252A_Chrysler_URB",
-			"89th_CH252A_Chrysler_URB_dp",
-			"89th_CH252A_Chrysler_WDL",
-			"89th_CH252A_Chrysler_WDL_dp"
+			"89th_CH252A_Chrysler_WDL"
 		};
 	};
 };
 class cfgWeapons
 {
-	class 89th_CH252A;
-	class 89th_CH252A_dp;
+	class 89th_CH252A_Light;
 	class ItemInfo;
-	class 89th_CH252A_Chrysler_WDL: 89th_CH252A
+	class 89th_CH252A_Chrysler_WDL: 89th_CH252A_Light
     {
         dlc="89thCUArmor";
         scope=2;
@@ -39,40 +33,17 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_wdl.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_wdl.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_wdl.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_wdl.paa"
             };
         };
     };
-    class 89th_CH252A_Chrysler_WDL_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Soup, Vespade";
-        displayName="CH252A (Chrysler)(WDL)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_WDL.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_WDL.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };
-	class 89th_CH252A_Chrysler_URB: 89th_CH252A
+	class 89th_CH252A_Chrysler_URB: 89th_CH252A_Light
     {
         dlc="89thCUArmor";
         scope=2;
@@ -81,39 +52,17 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa"
             };
         };
     };
-    class 89th_CH252A_Chrysler_URB_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Soup, Vespade";
-        displayName="CH252A (Chrysler)(URB)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_URB.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };class 89th_CH252A_Chrysler_DES: 89th_CH252A
+    class 89th_CH252A_Chrysler_DES: 89th_CH252A_Light
     {
         dlc="89thCUArmor";
         scope=2;
@@ -122,39 +71,17 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa"
             };
         };
     };
-    class 89th_CH252A_Chrysler_DES_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Soup, Vespade";
-        displayName="CH252A (Chrysler)(DES)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_DES.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };class 89th_CH252A_Chrysler_ARD: 89th_CH252A
+    class 89th_CH252A_Chrysler_ARD: 89th_CH252A_Light
     {
         dlc="89thCUArmor";
         scope=2;
@@ -163,39 +90,17 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa"
             };
         };
     };
-    class 89th_CH252A_Chrysler_ARD_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Soup, Vespade";
-        displayName="CH252A (Chrysler)(ARD)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_ARD.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };class 89th_CH252A_Chrysler_SNW: 89th_CH252A
+   class 89th_CH252A_Chrysler_SNW: 89th_CH252A_Light
     {
         dlc="89thCUArmor";
         scope=2;
@@ -204,39 +109,16 @@ class cfgWeapons
         CTAB_Camera="true";
         hiddenSelectionsTextures[]=
         {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa",
-            "89th_Gear\Visors\89th_Marine_V_CO.paa"
+            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa",
-                "89th_Gear\Visors\89th_Marine_V_CO.paa"
+                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa"
             };
         };
-    };
-    class 89th_CH252A_Chrysler_SNW_dp: 89th_CH252A_dp
-    {
-        dlc="89thCUArmor";
-        scope=2;
-        author="Soup, Vespade";
-        displayName="CH252A (Chrysler)(SNW)[OFF]";
-        CTAB_Camera="true";
-        hiddenSelectionsTextures[]=
-        {
-            "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-        };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "89th_Gear\CH252_Custom\Chrysler\89th_CH252A_Chrysler_SNW.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
-            };
-        };
-    };
+    };    
 };
 class XtdGearModels
 {
