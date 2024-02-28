@@ -101,7 +101,7 @@ class cfgWeapons
 			\\	"AP_SMG",
 				"AP_Sniper",
 				"AP_Thigh",
-				"AP_Frag",
+			\\	"AP_Frag",
 				"AP_Smoke",
 				"APO_AR",
 				"APO_BR",
