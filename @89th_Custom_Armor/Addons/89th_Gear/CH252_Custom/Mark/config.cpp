@@ -40,14 +40,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_wdl.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_wdl.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
     };
@@ -82,14 +82,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_URB.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_URB.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
     };
@@ -123,14 +123,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_DES.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_DES.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
     };
@@ -164,14 +164,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_ARD.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_ARD.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
     };
@@ -205,14 +205,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_SNW.paa",
-            "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Mark\89th_CH252A_Mark_SNW.paa",
-                "V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
             };
         };
     };
