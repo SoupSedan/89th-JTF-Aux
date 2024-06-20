@@ -34,7 +34,9 @@ class cfgWeapons
 		model="\A3\Drones_F\Air_F_Gamma\UAV_01\UAV_01_F.p3d";
 		class ItemInfo: ToolKitItem
 		{
-			mass=50;
+		maximumLoad=520;
+		allowedSlots[]={901};	
+		mass=50;
 			uniformModel="\A3\Weapons_F\Items\Toolkit";
 		};
 	};
