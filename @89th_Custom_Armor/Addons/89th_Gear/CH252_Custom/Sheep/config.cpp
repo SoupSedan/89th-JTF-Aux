@@ -40,14 +40,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_wdl.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_wdl.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
             };
         };
     };
@@ -82,14 +82,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_URB.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_URB.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
             };
         };
     };
@@ -123,14 +123,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_DES.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_DES.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
             };
         };
     };
@@ -164,14 +164,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_ARD.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_ARD.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
             };
         };
     };
@@ -205,14 +205,14 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_SNW.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
+            "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
         };
         class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[]=
             {
                 "89th_Gear\CH252_Custom\Sheep\89th_CH252D_Sheep_SNW.paa",
-                "optre_unsc_units\army\data\helmet_visor_ca.paa"
+                "V_FZ_Armor\Data\Helmets\V_CH252D_BLU_V_CO"
             };
         };
     };
